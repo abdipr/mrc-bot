@@ -317,34 +317,32 @@ const BOT_START_TIME = Date.now();
 // Endpoint untuk peminjaman barang
 app.post("/pinjam", async (req, res) => {
   try {
-    const { number, name, start_date, due_date, items, id } = req.body;
+    const { number, name, start_date, due_date, items, id, purpose, notes } = req.body;
 
-    if (!number || !name || !start_date || !due_date || !Array.isArray(items)) {
+    if (!number || !name || !start_date || !due_date || !Array.isArray(items) || !purpose) {
       return res.status(400).json({ error: "Data tidak lengkap" });
     }
 
     function formatStart(tgl) {
       try {
-      const d = new Date(tgl);
-      const dJakarta = new Date(d.getTime() + 7 * 60 * 60 * 1000);
-      const yyyy = dJakarta.getFullYear();
-      const mm = String(dJakarta.getMonth() + 1).padStart(2, "0");
-      const dd = String(dJakarta.getDate()).padStart(2, "0");
-      const hh = String(dJakarta.getHours()).padStart(2, "0");
-      const min = String(dJakarta.getMinutes()).padStart(2, "0");
-      return `${yyyy}-${mm}-${dd} pukul ${hh}:${min}`;
+        const d = new Date(tgl);
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, "0");
+        const dd = String(d.getDate()).padStart(2, "0");
+        const hh = String(d.getHours()).padStart(2, "0");
+        const min = String(d.getMinutes()).padStart(2, "0");
+        return `${yyyy}-${mm}-${dd} pukul ${hh}:${min}`;
       } catch {
-      return tgl;
+        return tgl;
       }
     }
 
     function formatDue(tgl) {
       try {
       const d = new Date(tgl);
-      const dJakarta = new Date(d.getTime() + 7 * 60 * 60 * 1000);
-      const yyyy = dJakarta.getFullYear();
-      const mm = String(dJakarta.getMonth() + 1).padStart(2, "0");
-      const dd = String(dJakarta.getDate()).padStart(2, "0");
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
       return `${yyyy}-${mm}-${dd}`;
       } catch {
       return tgl;
@@ -365,7 +363,8 @@ app.post("/pinjam", async (req, res) => {
     const startDateText = formatStart(start_date);
     const dueDateText = formatDue(due_date);
 
-    const message = `📢 Yth. *${name}*,\nAnda telah melakukan peminjaman barang dari *MRC*\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📋 Barang yang Dipinjam:\n${itemsText}\n\n📅 Jatuh Tempo: *${dueDateText}*\n\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️`;
+    let notesText = notes && notes.trim() ? `📄 Catatan: *${notes}*\n` : "";
+    const message = `📢 Yth. *${name}*,\nAnda telah melakukan peminjaman barang dari *MRC*\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📋 Barang yang Dipinjam:\n${itemsText}\n\n📅 Jatuh Tempo: *${dueDateText}*\n📌 Keperluan: *${purpose}*\n${notesText}\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️`;
 
     pinjamanDB.push({
       id: pinjamId,
@@ -374,6 +373,8 @@ app.post("/pinjam", async (req, res) => {
       start_date,
       due_date,
       items,
+      purpose,
+      notes: notes || "",
       status: "dipinjam",
       returned_at: null,
     });
@@ -402,7 +403,7 @@ app.post("/pinjam", async (req, res) => {
     setTimeout(async () => {
       const latestPinjaman = pinjamanDB.find((p) => p.id === pinjamId);
       if (latestPinjaman && latestPinjaman.status !== "dikembalikan") {
-        const reminderMsg = `📢 Yth. *${name}*,\nAnda *belum mengembalikan* barang yang dipinjam dari *MRC*\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📋 Barang yang Dipinjam:\n${itemsText}\n\n📅 Jatuh Tempo: *${dueDateText}*\n\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️\n\n> _Abaikan pesan ini jika sudah mengembalikan_`;
+        const reminderMsg = `📢 Yth. *${name}*,\nAnda *belum mengembalikan* barang yang dipinjam dari *MRC*\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📋 Barang yang Dipinjam:\n${itemsText}\n\n📅 Jatuh Tempo: *${dueDateText}*\n📌 Keperluan: *${purpose}*\n${notesText}\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️\n\n> _Abaikan pesan ini jika sudah mengembalikan_`;
         try {
           await sockGlobal.sendMessage(jid, { text: reminderMsg });
           console.log(
@@ -455,6 +456,56 @@ app.post("/kembali", async (req, res) => {
     }
     pinjamanDB[idx].status = "dikembalikan";
     pinjamanDB[idx].returned_at = new Date().toISOString();
+    const { number, name, items, start_date, purpose, notes } = pinjamanDB[idx];
+    const jid = number.includes("@s.whatsapp.net")
+      ? number
+      : number.replace(/\D/g, "") + "@s.whatsapp.net";
+    const itemsText = items
+      .map((it, idx) => `${idx + 1}. ${it.item_name} (${it.qty}x)`)
+      .join("\n");
+    // Hitung durasi peminjaman
+    const startTime = new Date(pinjamanDB[idx].start_date).getTime();
+    const returnedTime = new Date(pinjamanDB[idx].returned_at).getTime();
+    let durationMs = returnedTime - startTime;
+    if (durationMs < 0) durationMs = 0;
+    let m = Math.floor(durationMs / 1000 / 60) % 60;
+    let h = Math.floor(durationMs / 1000 / 60 / 60) % 24;
+    let d = Math.floor(durationMs / 1000 / 60 / 60 / 24);
+    let durasiStr;
+    if (d === 0) {
+      durasiStr = `${h} jam, ${m} menit`;
+    } else {
+      durasiStr = `${d} hari, ${h} jam, ${m} menit`;
+    }
+
+    const startDateText = (() => {
+      try {
+      const d = new Date(start_date);
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, "0");
+      const dd = String(d.getDate()).padStart(2, "0");
+      const hh = String(d.getHours()).padStart(2, "0");
+      const min = String(d.getMinutes()).padStart(2, "0");
+      return `${yyyy}-${mm}-${dd} pukul ${hh}:${min}`;
+      } catch {
+      return start_date;
+      }
+    })();
+    let notesText = notes && notes.trim() ? `📄 Catatan: *${notes}*\n` : "";
+
+    const message = `✅ Yth. *${name}*,\nTerima kasih sudah mengembalikan barang ke *MRC*!\n\n📋 Barang yang dikembalikan:\n${itemsText}\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📌 Keperluan: *${purpose}*\n${notesText}\n⏳ Durasi peminjaman: *${durasiStr}*\n\nBarang sudah diterima dalam keadaan baik dan lengkap yaa. Kalau butuh bantuan atau mau pinjam lagi, silakan hubungi MRC kapan ajaa 😁✨\n\n_Maintenance Repair Calibration_ 🛠️`;
+
+    try {
+      await sockGlobal.sendMessage(jid, { text: message });
+      ensureUserHistoryKey(jid);
+      conversationHistory[jid].push({ role: "assistant", content: message });
+      const system = conversationHistory[jid][0];
+      const rest = conversationHistory[jid].slice(1).slice(-MAX_HISTORY_ITEMS);
+      conversationHistory[jid] = [system, ...rest];
+      saveHistory(conversationHistory);
+    } catch (e) {
+      console.error("Gagal kirim konfirmasi pengembalian:", e.message || e);
+    }
     savePinjaman(pinjamanDB);
     res.json({ status: "Barang telah ditandai sebagai dikembalikan", id });
     console.log(
