@@ -1,0 +1,18 @@
+{
+  "name": "mrc-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot pakai Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "abdipr",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
