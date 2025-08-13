@@ -519,7 +519,7 @@ app.post("/kembali", async (req, res) => {
     })();
     let notesText = notes && notes.trim() ? `📄 Catatan: *${notes}*\n` : "";
 
-    const message = `✅ Yth. *${name}*,\nTerima kasih sudah mengembalikan barang ke *MRC*!\n\n📋 Barang yang Dikembalikan:\n${itemsText}\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📌 Keperluan: *${purpose}*\n${notesText}\n⏳ Durasi peminjaman: *${durasiStr}*\n\nBarang sudah diterima dalam keadaan baik dan lengkap yaa. Kalau butuh bantuan atau mau pinjam lagi, silakan hubungi MRC kapan ajaa 😁✨\n\n_Maintenance Repair Calibration_ 🛠️`;
+    const message = `✅ Yth. *${name}*,\nTerima kasih sudah mengembalikan barang ke *MRC*!\n\n📋 Barang yang dikembalikan:\n${itemsText}\n\n🗓 Tanggal Pinjam: *${startDateText}*\n📌 Keperluan: *${purpose}*\n${notesText}\n⏳ Durasi peminjaman: *${durasiStr}*\n\nBarang sudah diterima dalam keadaan baik dan lengkap yaa. Kalau butuh bantuan atau mau pinjam lagi, silakan hubungi MRC kapan ajaa 😁✨\n\n_Maintenance Repair Calibration_ 🛠️`;
 
     try {
       await sockGlobal.sendMessage(jid, { text: message });

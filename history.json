@@ -1065,6 +1065,10 @@
     {
       "role": "assistant",
       "content": "📢 Yth. *Cici Harisningsih, S.Pd.*,\nAnda telah melakukan peminjaman barang dari *MRC*\n\n🗓 Tanggal Pinjam: *2025-08-13 pukul 08:42*\n📋 Barang yang Dipinjam:\n1. Proyektor (1x)\n2. Terminal 5 Meter (1x)\n\n📅 Jatuh Tempo: *2025-08-13*\n📌 Keperluan: *KBM*\n📄 Catatan: *diambil oleh Rona*\n\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️"
+    },
+    {
+      "role": "assistant",
+      "content": "✅ Yth. *Cici Harisningsih, S.Pd.*,\nTerima kasih sudah mengembalikan barang ke *MRC*!\n\n📋 Barang yang Dikembalikan:\n1. Proyektor (1x)\n2. Terminal 5 Meter (1x)\n\n🗓 Tanggal Pinjam: *2025-08-13 pukul 08:42*\n📌 Keperluan: *KBM*\n📄 Catatan: *diambil oleh Rona*\n\n⏳ Durasi peminjaman: *5 jam, 16 menit*\n\nBarang sudah diterima dalam keadaan baik dan lengkap yaa. Kalau butuh bantuan atau mau pinjam lagi, silakan hubungi MRC kapan ajaa 😁✨\n\n_Maintenance Repair Calibration_ 🛠️"
     }
   ]
 }
