@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "1754799748848",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-10T11:22:28+07:00",
+    "due_date": "2025-08-11T11:22:19+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      }
+    ],
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:26:54.253Z"
+  },
+  {
+    "id": "1754800020507",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-10T11:26:59+07:00",
+    "due_date": "2025-08-11T11:26:30+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T04:48:08.166Z"
+  },
+  {
+    "id": "1754800066121",
+    "number": "6281324459209",
+    "name": "Wildan Firmansyah, S.T.",
+    "start_date": "2025-08-10T11:27:45+07:00",
+    "due_date": "2025-08-11T11:26:59+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      }
+    ],
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:45:27.078Z"
+  },
+  {
+    "id": "1754801417752",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-10T11:50:16+07:00",
+    "due_date": "2025-08-10T00:00:00+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:45:15.149Z"
+  },
+  {
+    "id": "1754801526542",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-10T11:52:06+07:00",
+    "due_date": "2025-08-10T00:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      }
+    ],
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:10:07.331Z"
+  },
+  {
+    "id": "1754801961815",
+    "number": "6282349193068",
+    "name": "cahyuy",
+    "start_date": "2025-08-10T11:59:20+07:00",
+    "due_date": "2025-08-11T11:58:49+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      }
+    ],
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:45:53.243Z"
+  },
+  {
+    "id": "1754804225060",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-10T12:37:05+07:00",
+    "due_date": "2025-08-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "dipinjam oleh abdi",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:37:28.555Z"
+  },
+  {
+    "id": "1754804307028",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-10T12:38:27+07:00",
+    "due_date": "2025-08-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "tesssssssssssssssssssssssss",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:40:19.472Z"
+  },
+  {
+    "id": "1754804492324",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-10T12:41:32+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 10
+      }
+    ],
+    "purpose": "ngeborong HDMI",
+    "notes": "diwakili oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:43:51.542Z"
+  },
+  {
+    "id": "1754804928800",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-10T12:48:47+07:00",
+    "due_date": "2025-08-11T12:48:26+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T05:49:15.932Z"
+  },
+  {
+    "id": "1754805034835",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-10T12:50:33+07:00",
+    "due_date": "2025-08-11T12:49:28+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "siswa yang ambil",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1754805545103",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-10T12:59:03+07:00",
+    "due_date": "2025-08-11T12:58:26+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1754869486188",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-11T06:44:46+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-10T23:45:19.771Z"
+  },
+  {
+    "id": "1754869801203",
+    "number": "6282119247543",
+    "name": "Alyandra",
+    "start_date": "2025-08-11T06:53:17+07:00",
+    "due_date": "2025-08-12T06:52:42+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "andra ganteng",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T00:07:22.544Z"
+  },
+  {
+    "id": "1754869827697",
+    "number": "6282318257448",
+    "name": "Rismawati",
+    "start_date": "2025-08-11T06:53:43+07:00",
+    "due_date": "2025-08-12T06:53:17+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "purpose": "tes",
+    "notes": "tes",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1754870616895",
+    "number": "6289655617417",
+    "name": "Taufik Dzikri Pangestu, S.Pd.",
+    "start_date": "2025-08-11T07:06:53+07:00",
+    "due_date": "2025-08-12T07:06:36+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "purpose": "NGUSEP",
+    "notes": "TES",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1754870819660",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-11T07:07:00+07:00",
+    "due_date": "2025-08-12T07:06:53+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T00:12:47.888Z"
+  },
+  {
+    "id": "1754871134926",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-08-11T07:12:16+07:00",
+    "due_date": "2025-08-12T07:12:06+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "1",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T00:12:41.919Z"
+  },
+  {
+    "id": "1754871328508",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-11T07:18:45+07:00",
+    "due_date": "2025-08-12T07:18:32+07:00",
+    "items": [
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      }
+    ],
+    "purpose": "F",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T00:15:37.618Z"
+  },
+  {
+    "id": "1754873247511",
+    "number": "6281324459209",
+    "name": "Wildan Firmansyah, S.T.",
+    "start_date": "2025-08-11T07:47:27+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 4
+      },
+      {
+        "item_name": "LCD PROYEKTOR ",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "dipinjam oleh siswa TPM",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1754873709503",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-08-11T07:55:09+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 3
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T02:31:49.181Z"
+  },
+  {
+    "id": "1754873925760",
+    "number": "6282213018657",
+    "name": "Hj. Siti Maemunah, S.Pd., M.M.Pd.",
+    "start_date": "2025-08-11T07:58:45+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T02:51:03.966Z"
+  },
+  {
+    "id": "1754874155913",
+    "number": "6281324459209",
+    "name": "Wildan Firmansyah, S.T.",
+    "start_date": "2025-08-11T08:02:35+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "tes",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T15:51:27.755Z"
+  },
+  {
+    "id": "1754877448676",
+    "number": "6282115574851",
+    "name": "Ajat Sutiawan, S.Pd.",
+    "start_date": "2025-08-11T08:57:28+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T02:07:07.647Z"
+  },
+  {
+    "id": "1754884005697",
+    "number": "6289699660620",
+    "name": "Faisal Akbar, SE.",
+    "start_date": "2025-08-11T10:46:45+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:14:09.863Z"
+  },
+  {
+    "id": "1754890117616",
+    "number": "6281312218219",
+    "name": "Asep Saepuloh, S.S.",
+    "start_date": "2025-08-11T12:28:37+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:13:43.479Z"
+  },
+  {
+    "id": "1754891059686",
+    "number": "6287828158057",
+    "name": "Rizal Suyaman S.Kom.",
+    "start_date": "2025-08-11T12:44:19+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:29:48.412Z"
+  },
+  {
+    "id": "1754891336447",
+    "number": "6285221869008",
+    "name": "Fippa Insani, S.Pd.",
+    "start_date": "2025-08-11T12:48:56+07:00",
+    "due_date": "2025-08-12T12:48:12+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      },
+      {
+        "item_name": "Kabel HDMI 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T07:06:10.401Z"
+  },
+  {
+    "id": "1754891764192",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-08-11T12:56:04+07:00",
+    "due_date": "2025-08-12T12:48:57+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "DIAMBIL OLEH ALISA 11 MP 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:25:20.196Z"
+  },
+  {
+    "id": "1754892276947",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-08-11T13:04:36+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 3
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T07:06:34.830Z"
+  },
+  {
+    "id": "1754892738589",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-08-11T13:12:18+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:29:55.386Z"
+  },
+  {
+    "id": "1754895680377",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-08-11T14:01:20+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:16:40.171Z"
+  },
+  {
+    "id": "1754896638797",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-08-11T14:17:18+07:00",
+    "due_date": "2025-08-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-11T08:33:25.485Z"
+  },
+  {
+    "id": "1754957308375",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-08-12T07:08:28+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1754957476293",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-08-12T07:11:16+07:00",
+    "due_date": "2025-08-12T07:09:38+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di pinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T05:51:02.953Z"
+  },
+  {
+    "id": "1754957751745",
+    "number": "6281312218219",
+    "name": "Asep Saepuloh, S.S.",
+    "start_date": "2025-08-12T07:15:52+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T02:32:03.884Z"
+  },
+  {
+    "id": "1754957786202",
+    "number": "6281542992695",
+    "name": "Eko Agus Prasetiyo, S.Pd.",
+    "start_date": "2025-08-12T07:16:26+07:00",
+    "due_date": "2025-08-19T07:15:52+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T02:58:27.708Z"
+  },
+  {
+    "id": "1754957963617",
+    "number": "6281912510996",
+    "name": "Siti Maryam, S.Pd.",
+    "start_date": "2025-08-12T07:19:24+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:19:52.874Z"
+  },
+  {
+    "id": "1754958048441",
+    "number": "6285222054181",
+    "name": "Agus Wahyu, S.Pd.",
+    "start_date": "2025-08-12T07:20:49+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T02:01:28.468Z"
+  },
+  {
+    "id": "1754958094415",
+    "number": "6287727066000",
+    "name": "Muhamad Abdul Hadi, S.Pd.",
+    "start_date": "2025-08-12T07:21:35+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 7
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:16:37.472Z"
+  },
+  {
+    "id": "1754958473238",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-08-12T07:27:53+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T02:53:32.255Z"
+  },
+  {
+    "id": "1754958610718",
+    "number": "6285221295220",
+    "name": "Wendy Supriatna, S.Pd.",
+    "start_date": "2025-08-12T07:30:11+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T04:03:06.195Z"
+  },
+  {
+    "id": "1754959734598",
+    "number": "6285221295220",
+    "name": "Wendy Supriatna, S.Pd.",
+    "start_date": "2025-08-12T07:48:55+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 6
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T04:03:22.526Z"
+  },
+  {
+    "id": "1754962924720",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-08-12T08:42:04+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:01:50.046Z"
+  },
+  {
+    "id": "1754963270287",
+    "number": "6285221869008",
+    "name": "Fippa Insani, S.Pd.",
+    "start_date": "2025-08-12T08:47:50+07:00",
+    "due_date": "2025-08-13T08:42:06+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T04:51:04.178Z"
+  },
+  {
+    "id": "1754964020342",
+    "number": "6289670351213",
+    "name": "Sapa Oktapiani, S.Pd.",
+    "start_date": "2025-08-12T09:00:20+07:00",
+    "due_date": "2025-08-13T08:50:29+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di pinjem sama murid nur aulia ",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T05:51:12.115Z"
+  },
+  {
+    "id": "1754964622904",
+    "number": "6287822723988",
+    "name": "Hermawati Setyani Aksari, S.Pd.",
+    "start_date": "2025-08-12T09:10:23+07:00",
+    "due_date": "2025-08-13T09:09:22+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil sama murid alif muzanky",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T04:46:03.199Z"
+  },
+  {
+    "id": "1754969168624",
+    "number": "6281321164064",
+    "name": "Ari Wahyu Dani, ST.",
+    "start_date": "2025-08-12T10:26:08+07:00",
+    "due_date": "2025-08-13T10:25:20+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "idi ambil sama murid rozan ",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T06:27:45.494Z"
+  },
+  {
+    "id": "1754970490349",
+    "number": "6282249269700",
+    "name": "Dra. Carsih",
+    "start_date": "2025-08-12T10:48:10+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "DIAMBIL OLEH ALEA",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:01:22.598Z"
+  },
+  {
+    "id": "1754970805091",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-08-12T10:53:25+07:00",
+    "due_date": "2025-08-13T10:48:11+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh elsya dan keyra",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T06:55:48.979Z"
+  },
+  {
+    "id": "1754974535999",
+    "number": "6281322653996",
+    "name": "Dini Wulandari, S.Pd.",
+    "start_date": "2025-08-12T11:55:36+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T00:23:38.019Z"
+  },
+  {
+    "id": "1754977822646",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-08-12T12:50:22+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "dipinjam oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:00:02.439Z"
+  },
+  {
+    "id": "1754978265682",
+    "number": "6287727066000",
+    "name": "Muhamad Abdul Hadi, S.Pd.",
+    "start_date": "2025-08-12T12:57:45+07:00",
+    "due_date": "2025-08-13T12:56:50+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:16:39.394Z"
+  },
+  {
+    "id": "1754981900527",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-08-12T13:58:20+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi nayla",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:22:52.256Z"
+  },
+  {
+    "id": "1754983271423",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-08-12T14:21:11+07:00",
+    "due_date": "2025-08-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo TPM Core i3",
+        "qty": 10
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:20:16.204Z"
+  },
+  {
+    "id": "1754984521714",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-08-12T14:42:01+07:00",
+    "due_date": "2025-08-13T14:41:10+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di pinjam oleh anggita",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-12T08:28:14.856Z"
+  },
+  {
+    "id": "1755003704078",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-08-12T20:05:02+07:00",
+    "due_date": "2025-08-13T20:04:45+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "tes",
+    "notes": "tes",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755044404738",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-08-13T07:20:04+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Ainna",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T02:32:25.972Z"
+  },
+  {
+    "id": "1755044432982",
+    "number": "6285172001028",
+    "name": "Retno Novia Andriani, S.Kom",
+    "start_date": "2025-08-13T07:20:32+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T05:39:05.280Z"
+  },
+  {
+    "id": "1755044461201",
+    "number": "6285222438660",
+    "name": "Dra. Hj. Heti Perdiati",
+    "start_date": "2025-08-13T07:21:01+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T06:20:50.514Z"
+  },
+  {
+    "id": "1755044478863",
+    "number": "6282121115411",
+    "name": "Siti Hasti, S.Pd.",
+    "start_date": "2025-08-13T07:21:18+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T04:52:07.111Z"
+  },
+  {
+    "id": "1755044513365",
+    "number": "6282213018657",
+    "name": "Hj. Siti Maemunah, S.Pd., M.M.Pd.",
+    "start_date": "2025-08-13T07:21:53+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Ibnu",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T01:31:05.657Z"
+  },
+  {
+    "id": "1755044564739",
+    "number": "6283195597147",
+    "name": "Dadang, S.Pd.I.",
+    "start_date": "2025-08-13T07:22:44+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Evelyn",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T01:37:23.989Z"
+  },
+  {
+    "id": "1755044603157",
+    "number": "6285221869008",
+    "name": "Fippa Insani, S.Pd.",
+    "start_date": "2025-08-13T07:23:22+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Gilang",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755044899755",
+    "number": "6283195597147",
+    "name": "Dadang, S.Pd.I.",
+    "start_date": "2025-08-13T07:28:19+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Evelyn",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T01:37:32.026Z"
+  },
+  {
+    "id": "1755044981895",
+    "number": "6283816093077",
+    "name": "Guntur Widianto, S.T",
+    "start_date": "2025-08-13T07:29:42+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "MAU UANG GA",
+        "qty": 1
+      }
+    ],
+    "purpose": "MINJAM UANG 20.000.000 rupiah",
+    "notes": "BAYAR SEGERA",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T00:30:26.081Z"
+  },
+  {
+    "id": "1755045225421",
+    "number": "6285322468996",
+    "name": "Hj. Chairzawati, SE.",
+    "start_date": "2025-08-13T07:33:45+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Intan",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T01:32:11.642Z"
+  },
+  {
+    "id": "1755045644483",
+    "number": "6285322468996",
+    "name": "Hj. Chairzawati, SE.",
+    "start_date": "2025-08-13T07:40:44+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh aurel",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T01:32:42.979Z"
+  },
+  {
+    "id": "1755049244817",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-08-13T08:40:44+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Vanesya",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755049292925",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-08-13T08:41:32+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Nur Aulia",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T03:05:13.733Z"
+  },
+  {
+    "id": "1755049368702",
+    "number": "6283149635212",
+    "name": "Cici Harisningsih, S.Pd.",
+    "start_date": "2025-08-13T08:42:48+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Rona",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755049702678",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-08-13T08:48:22+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-08-13T04:31:17.526Z"
+  },
+  {
+    "id": "1755063424661",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-08-13T12:37:04+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755063706693",
+    "number": "6282249269700",
+    "name": "Dra. Carsih",
+    "start_date": "2025-08-13T12:41:46+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755063787364",
+    "number": "6285221869008",
+    "name": "Fippa Insani, S.Pd.",
+    "start_date": "2025-08-13T12:43:07+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755063841312",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-08-13T12:44:01+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755064521693",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-08-13T12:55:21+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1755064892719",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-08-13T13:01:32+07:00",
+    "due_date": "2025-08-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo TPM Core i3",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal 5 Meter",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dipinjam",
+    "returned_at": null
+  }
+]
