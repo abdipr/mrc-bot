@@ -212,6 +212,7 @@ async function startBot() {
 
   sock.ev.on("messages.upsert", async (m) => {
     try {
+      const adminNumbers = ["6288706320887@s.whatsapp.net", "6288218366466@s.whatsapp.net"];
       const msg = m.messages[0];
       if (!msg || !msg.message || msg.key.fromMe) return;
 
@@ -238,10 +239,11 @@ async function startBot() {
         console.warn("Presence update error (ignored):", e.message || e);
       }
 
-      if (
-        from === "6288218366466@s.whatsapp.net" &&
-        text.trim().toLowerCase().startsWith("/msg ")
-      ) {
+      if (text.trim().toLowerCase().startsWith("/msg ")) {
+        if (!adminNumbers.includes(from)) {
+          await sock.sendMessage(from, { text: "❌ Command /msg hanya bisa digunakan oleh admin." });
+          return;
+        }
         const match = text.trim().match(/^\/msg\s+(\d{8,15})\s+([\s\S]+)/i);
         if (!match) {
           await sock.sendMessage(from, { text: "Format salah. Contoh: /msg 62812345678 Halo, ini pesan!" });
@@ -277,6 +279,20 @@ async function startBot() {
         return;
       }
 
+      if (text.trim().toLowerCase() === "/help") {
+        let helpMsg = `🤖 *Command Bot MRC*\n\n`;
+        helpMsg += `Ketik pesan apa saja untuk memulai percakapan dengan bot.\n\n`;
+        helpMsg += `*Perintah yang tersedia:*\n`;
+        helpMsg += `- \`/msg <nomor> <pesan>\` - Mengirim pesan ke nomor tertentu.\n`;
+        helpMsg += `- \`/reset\` - Menghapus riwayat percakapan.\n`;
+        helpMsg += `- \`/ping\` - Mengecek koneksi.\n`;
+        helpMsg += `- \`/help\` - Menampilkan bantuan ini.\n`;
+        helpMsg += `- \`/stats\` - Menampilkan statistik bot.\n\n`;
+        helpMsg += `- \`/bc\` - Mengirim pesan broadcast ke semua pengguna.\n`;
+        await sock.sendMessage(from, { text: helpMsg });
+        return;
+      }
+
       if (text.trim().toLowerCase() === "/stats") {
         const uptimeMs = Date.now() - BOT_START_TIME;
         const s = Math.floor(uptimeMs / 1000) % 60;
@@ -301,33 +317,43 @@ async function startBot() {
         return;
       }
 
-      // Command broadcast hanya untuk admin
-      const adminNumbers = ["6288706320887@s.whatsapp.net", "6288218366466@s.whatsapp.net"];
-      if (adminNumbers.includes(from)) {
-        if (text.trim().toLowerCase() === "/bc") {
-          // Simpan state broadcast di memory
-          if (!global.broadcastState) global.broadcastState = {};
-          global.broadcastState[from] = { waiting: true };
-          const userCount = Object.keys(conversationHistory).length;
-          await sock.sendMessage(from, { text: `✉ Kirim teks broadcast yang akan dikirim ke ${userCount} pengguna.` });
+      if (text.trim().toLowerCase() === "/bc") {
+        if (!adminNumbers.includes(from)) {
+          await sock.sendMessage(from, { text: "❌ Command /bc hanya bisa digunakan oleh admin." });
           return;
         }
-        // Jika sedang menunggu pesan broadcast
-        if (global.broadcastState && global.broadcastState[from]?.waiting) {
-          const userJids = Object.keys(conversationHistory).filter(jid => jid.endsWith("@s.whatsapp.net"));
-          let sentCount = 0;
-          for (const jid of userJids) {
-            try {
-              await sock.sendMessage(jid, { text });
-              sentCount++;
-            } catch (e) {
-              console.error(`❌ Gagal kirim broadcast ke ${jid}:`, e.message || e);
-            }
-          }
-          await sock.sendMessage(from, { text: `✅ Pesan telah dikirim ke ${sentCount} orang!` });
+        // Simpan state broadcast di memory
+        if (!global.broadcastState) global.broadcastState = {};
+        global.broadcastState[from] = { waiting: true };
+        const userCount = Object.keys(conversationHistory).length;
+        await sock.sendMessage(from, { text: `✉ Kirim teks broadcast yang akan dikirim ke ${userCount} pengguna.\n\nKetik \`batal\` untuk membatalkan.` });
+        return;
+      }
+      // Jika sedang menunggu pesan broadcast
+      if (global.broadcastState && global.broadcastState[from]?.waiting) {
+        if (!adminNumbers.includes(from)) {
           global.broadcastState[from] = null;
+          await sock.sendMessage(from, { text: "❌ Command broadcast hanya bisa digunakan oleh admin." });
           return;
         }
+        if (text.trim().toLowerCase() === "batal") {
+          global.broadcastState[from] = null;
+          await sock.sendMessage(from, { text: "❌ Broadcast dibatalkan." });
+          return;
+        }
+        const userJids = Object.keys(conversationHistory).filter(jid => jid.endsWith("@s.whatsapp.net"));
+        let sentCount = 0;
+        for (const jid of userJids) {
+          try {
+            await sock.sendMessage(jid, { text });
+            sentCount++;
+          } catch (e) {
+            console.error(`❌ Gagal kirim broadcast ke ${jid}:`, e.message || e);
+          }
+        }
+        await sock.sendMessage(from, { text: `✅ Pesan broadcast telah dikirim ke ${sentCount} orang!` });
+        global.broadcastState[from] = null;
+        return;
       }
 
       // Hanya balas dengan AI jika settings.ai_active === true
@@ -394,13 +420,13 @@ app.post("/pinjam", async (req, res) => {
 
     function formatDue(tgl) {
       try {
-      const d = new Date(tgl);
-      const yyyy = d.getFullYear();
-      const mm = String(d.getMonth() + 1).padStart(2, "0");
-      const dd = String(d.getDate()).padStart(2, "0");
-      return `${yyyy}-${mm}-${dd}`;
+        const d = new Date(tgl);
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, "0");
+        const dd = String(d.getDate()).padStart(2, "0");
+        return `${yyyy}-${mm}-${dd}`;
       } catch {
-      return tgl;
+        return tgl;
       }
     }
 
@@ -535,15 +561,15 @@ app.post("/kembali", async (req, res) => {
 
     const startDateText = (() => {
       try {
-      const d = new Date(start_date);
-      const yyyy = d.getFullYear();
-      const mm = String(d.getMonth() + 1).padStart(2, "0");
-      const dd = String(d.getDate()).padStart(2, "0");
-      const hh = String(d.getHours()).padStart(2, "0");
-      const min = String(d.getMinutes()).padStart(2, "0");
-      return `${yyyy}-${mm}-${dd} pukul ${hh}:${min}`;
+        const d = new Date(start_date);
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, "0");
+        const dd = String(d.getDate()).padStart(2, "0");
+        const hh = String(d.getHours()).padStart(2, "0");
+        const min = String(d.getMinutes()).padStart(2, "0");
+        return `${yyyy}-${mm}-${dd} pukul ${hh}:${min}`;
       } catch {
-      return start_date;
+        return start_date;
       }
     })();
     let notesText = notes && notes.trim() ? `📄 Catatan: *${notes}*\n` : "";
