@@ -6,22 +6,6 @@
     },
     {
       "role": "user",
-      "content": "Hey"
-    },
-    {
-      "role": "assistant",
-      "content": "Heyyy! 🤗 Kamu kembali lagi! Ada yang bisa aku bantu? Silakan tanya-tanya aja! ✨😊"
-    },
-    {
-      "role": "user",
-      "content": "Iya"
-    },
-    {
-      "role": "assistant",
-      "content": "Okeey! 😄 Ada pertanyaan atau permintaan apa nih? Bisa tentang peminjaman barang atau layanan teknis di MRC! ✨💻"
-    },
-    {
-      "role": "user",
       "content": "Iya"
     },
     {
@@ -43,6 +27,22 @@
     {
       "role": "assistant",
       "content": "Pinggg! 🙌😄 Ada yang mau kamu tanyakan? Ayo, kabarinnya! ✨💬"
+    },
+    {
+      "role": "user",
+      "content": "Hey"
+    },
+    {
+      "role": "assistant",
+      "content": "Heyyy! 😄👋 Ada yang bisa aku bantu nih? Jangan sungkan-sungkan buat tanya-tanya ya! ✨💻"
+    },
+    {
+      "role": "user",
+      "content": "Baru nyala ya"
+    },
+    {
+      "role": "assistant",
+      "content": "Iyaaa, baru nyala nih! 😄✨ Ada yang mau diceritain atau ada pertanyaan seputar MRC? Silakan aja! 🎉💬"
     }
   ],
   "6288706320887@s.whatsapp.net": [

@@ -287,8 +287,8 @@ async function startBot() {
         helpMsg += `- \`/reset\` - Menghapus riwayat percakapan.\n`;
         helpMsg += `- \`/ping\` - Mengecek koneksi.\n`;
         helpMsg += `- \`/help\` - Menampilkan bantuan ini.\n`;
-        helpMsg += `- \`/stats\` - Menampilkan statistik bot.\n\n`;
-        helpMsg += `- \`/bc\` - Mengirim pesan broadcast ke semua pengguna.\n`;
+        helpMsg += `- \`/stats\` - Menampilkan statistik bot.\n`;
+        helpMsg += `- \`/bc\` - Mengirim pesan broadcast ke semua pengguna.`;
         await sock.sendMessage(from, { text: helpMsg });
         return;
       }
@@ -326,7 +326,7 @@ async function startBot() {
         if (!global.broadcastState) global.broadcastState = {};
         global.broadcastState[from] = { waiting: true };
         const userCount = Object.keys(conversationHistory).length;
-        await sock.sendMessage(from, { text: `✉ Kirim teks broadcast yang akan dikirim ke ${userCount} pengguna.\n\nKetik \`batal\` untuk membatalkan.` });
+        await sock.sendMessage(from, { text: `📢 Kirim teks broadcast yang akan dikirim ke ${userCount} pengguna.\n\nKetik \`batal\` untuk membatalkan.` });
         return;
       }
       // Jika sedang menunggu pesan broadcast
