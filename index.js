@@ -301,6 +301,35 @@ async function startBot() {
         return;
       }
 
+      // Command broadcast hanya untuk admin
+      const adminNumbers = ["6288706320887@s.whatsapp.net", "6288218366466@s.whatsapp.net"];
+      if (adminNumbers.includes(from)) {
+        if (text.trim().toLowerCase() === "/bc") {
+          // Simpan state broadcast di memory
+          if (!global.broadcastState) global.broadcastState = {};
+          global.broadcastState[from] = { waiting: true };
+          const userCount = Object.keys(conversationHistory).length;
+          await sock.sendMessage(from, { text: `✉ Kirim teks broadcast yang akan dikirim ke ${userCount} pengguna.` });
+          return;
+        }
+        // Jika sedang menunggu pesan broadcast
+        if (global.broadcastState && global.broadcastState[from]?.waiting) {
+          const userJids = Object.keys(conversationHistory).filter(jid => jid.endsWith("@s.whatsapp.net"));
+          let sentCount = 0;
+          for (const jid of userJids) {
+            try {
+              await sock.sendMessage(jid, { text });
+              sentCount++;
+            } catch (e) {
+              console.error(`❌ Gagal kirim broadcast ke ${jid}:`, e.message || e);
+            }
+          }
+          await sock.sendMessage(from, { text: `✅ Pesan telah dikirim ke ${sentCount} orang!` });
+          global.broadcastState[from] = null;
+          return;
+        }
+      }
+
       // Hanya balas dengan AI jika settings.ai_active === true
       if (settings.ai_active) {
         conversationHistory[from].push({ role: "user", content: text });
