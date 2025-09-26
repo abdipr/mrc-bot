@@ -383,8 +383,6 @@ async function startBot() {
         } catch (e) {
           console.warn("Presence available error (ignored):", e.message || e);
         }
-      } else {
-        await sock.sendMessage(from, { text: "Halo, ada yang bisa MRC bantu? 😊" });
       }
     } catch (err) {
       console.error("Handler messages.upsert error:", err);
