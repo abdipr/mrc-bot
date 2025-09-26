@@ -10748,5 +10748,22 @@
     "notes": "",
     "status": "dipinjam",
     "returned_at": null
+  },
+  {
+    "id": "1758866294815",
+    "number": "628897937997",
+    "name": "Andina Nurma Fadhila, S.Hum.",
+    "start_date": "2025-09-26T12:58:13+07:00",
+    "due_date": "2025-09-26T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Raffa",
+    "status": "dipinjam",
+    "returned_at": null
   }
 ]

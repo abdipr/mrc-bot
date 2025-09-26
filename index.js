@@ -211,6 +211,7 @@ async function startBot() {
   sock.ev.on("creds.update", saveCreds);
 
   sock.ev.on("messages.upsert", async (m) => {
+
     try {
       const adminNumbers = ["6288706320887@s.whatsapp.net", "6288218366466@s.whatsapp.net"];
       const msg = m.messages[0];
@@ -223,6 +224,20 @@ async function startBot() {
         msg.message?.imageMessage?.caption ||
         msg.message?.documentMessage?.caption ||
         "";
+
+      // Jika AI mati, jangan balas apapun dan jangan update presence
+      if (!settings.ai_active &&
+        !text.trim().toLowerCase().startsWith("/msg ") &&
+        text.trim().toLowerCase() !== "/reset" &&
+        text.trim().toLowerCase() !== "hapus history" &&
+        text.trim().toLowerCase() !== "/ping" &&
+        text.trim().toLowerCase() !== "/help" &&
+        text.trim().toLowerCase() !== "/stats" &&
+        text.trim().toLowerCase() !== "/bc" &&
+        !(global.broadcastState && global.broadcastState[from]?.waiting)
+      ) {
+        return;
+      }
 
       console.log(
         `[${new Date().toLocaleString("en-US", {

@@ -2360,10 +2360,6 @@
     },
     {
       "role": "assistant",
-      "content": "📢 Yth. *Andina Nurma Fadhila, S.Hum.*,\nAnda telah melakukan peminjaman barang dari *MRC*\n\n🗓 Tanggal Pinjam: *2025-09-10 pukul 07:35*\n📋 Barang yang Dipinjam:\n1. Proyektor (1x)\n2. Terminal Listrik (1x)\n\n📅 Jatuh Tempo: *2025-09-10*\n📌 Keperluan: *kbm*\n📄 Catatan: *diambil oleh denis*\n\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️"
-    },
-    {
-      "role": "assistant",
       "content": "✅ Yth. *Andina Nurma Fadhila, S.Hum.*,\nTerima kasih sudah mengembalikan barang ke *MRC*!\n\n📋 Barang yang dikembalikan:\n1. Proyektor (1x)\n2. Terminal Listrik (1x)\n\n🗓 Tanggal Pinjam: *2025-09-10 pukul 07:35*\n📌 Keperluan: *kbm*\n📄 Catatan: *diambil oleh denis*\n\n⏳ Durasi peminjaman: *0 jam, 50 menit*\n\nBarang sudah diterima dalam keadaan baik dan lengkap yaa. Kalau butuh bantuan atau mau pinjam lagi, silakan hubungi MRC kapan ajaa 😁✨\n\n_Maintenance Repair Calibration_ 🛠️"
     },
     {
@@ -2397,6 +2393,10 @@
     {
       "role": "assistant",
       "content": "✅ Yth. *Andina Nurma Fadhila, S.Hum.*,\nTerima kasih sudah mengembalikan barang ke *MRC*!\n\n📋 Barang yang dikembalikan:\n1. Proyektor (1x)\n2. Terminal Listrik (1x)\n\n🗓 Tanggal Pinjam: *2025-09-24 pukul 07:33*\n📌 Keperluan: *kbm*\n📄 Catatan: *diambil oleh siswa *\n\n⏳ Durasi peminjaman: *1 jam, 3 menit*\n\nBarang sudah diterima dalam keadaan baik dan lengkap yaa. Kalau butuh bantuan atau mau pinjam lagi, silakan hubungi MRC kapan ajaa 😁✨\n\n_Maintenance Repair Calibration_ 🛠️"
+    },
+    {
+      "role": "assistant",
+      "content": "📢 Yth. *Andina Nurma Fadhila, S.Hum.*,\nAnda telah melakukan peminjaman barang dari *MRC*\n\n🗓 Tanggal Pinjam: *2025-09-26 pukul 12:58*\n📋 Barang yang Dipinjam:\n1. Proyektor (1x)\n\n📅 Jatuh Tempo: *2025-09-26*\n📌 Keperluan: *KBM*\n📄 Catatan: *diambil oleh Raffa*\n\n⚠️ Mohon untuk mengembalikan barang tepat waktu dalam keadaan *lengkap* dan *baik* sesuai saat dipinjam.\n\n_Maintenance Repair Calibration_ 🛠️"
     }
   ],
   "6285222591519@s.whatsapp.net": [
