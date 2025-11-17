@@ -175,8 +175,8 @@
     ],
     "purpose": "kbm",
     "notes": "siswa yang ambil",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1754805545103",
@@ -192,8 +192,8 @@
     ],
     "purpose": "kbm",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1754869486188",
@@ -243,8 +243,8 @@
     ],
     "purpose": "tes",
     "notes": "tes",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1754870616895",
@@ -260,8 +260,8 @@
     ],
     "purpose": "NGUSEP",
     "notes": "TES",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1754870819660",
@@ -336,8 +336,8 @@
     ],
     "purpose": "kbm",
     "notes": "dipinjam oleh siswa TPM",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1754873709503",
@@ -634,8 +634,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1754957476293",
@@ -1516,8 +1516,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswa",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1755064521693",
@@ -1903,8 +1903,8 @@
     ],
     "purpose": "KBM",
     "notes": "DIAMBIL OLEH SIDQI",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1755562800958",
@@ -3157,8 +3157,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1756168105363",
@@ -3182,8 +3182,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1756168132605",
@@ -3199,8 +3199,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1756168199971",
@@ -7384,8 +7384,8 @@
     ],
     "purpose": "kbm",
     "notes": "diambill oleh pak rizal",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T23:48:37.125Z"
   },
   {
     "id": "1757915166677",
@@ -7527,8 +7527,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswa",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
   },
   {
     "id": "1758155115677",
@@ -8377,8 +8377,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswi",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T04:34:07.415Z"
   },
   {
     "id": "1758501017844",
@@ -8457,8 +8457,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswi",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T05:52:35.375Z"
   },
   {
     "id": "1758502795930",
@@ -10431,8 +10431,8 @@
     ],
     "purpose": "kbm",
     "notes": "diambil oleh siswi",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T06:42:42.817Z"
   },
   {
     "id": "1758847077737",
@@ -10452,8 +10452,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T07:44:38.860Z"
   },
   {
     "id": "1758847135718",
@@ -10469,8 +10469,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T07:44:36.409Z"
   },
   {
     "id": "1758847812971",
@@ -10490,8 +10490,8 @@
     ],
     "purpose": "KBM",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:09:16.906Z"
   },
   {
     "id": "1758847871588",
@@ -10536,8 +10536,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswa",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T07:01:57.886Z"
   },
   {
     "id": "1758848703121",
@@ -10561,8 +10561,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswa",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T07:07:20.947Z"
   },
   {
     "id": "1758848862013",
@@ -10578,8 +10578,8 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh siswi",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T06:40:44.095Z"
   },
   {
     "id": "1758850060484",
@@ -10645,8 +10645,8 @@
     ],
     "purpose": "Pramuka PMT",
     "notes": "diambil oleh siswi Salsabela",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T06:05:29.508Z"
   },
   {
     "id": "1758852171275",
@@ -10725,8 +10725,8 @@
     ],
     "purpose": "kbm",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T06:56:23.359Z"
   },
   {
     "id": "1758865820306",
@@ -10746,8 +10746,8 @@
     ],
     "purpose": "kbm",
     "notes": "",
-    "status": "dipinjam",
-    "returned_at": null
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T07:07:59.123Z"
   },
   {
     "id": "1758866294815",
@@ -10763,6 +10763,7332 @@
     ],
     "purpose": "KBM",
     "notes": "diambil oleh Raffa",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-26T07:30:53.334Z"
+  },
+  {
+    "id": "1759103167387",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-09-29T06:46:08+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T05:40:49.480Z"
+  },
+  {
+    "id": "1759104263824",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-09-29T07:04:24+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T04:04:02.811Z"
+  },
+  {
+    "id": "1759104346203",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-09-29T07:05:46+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "booking",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T02:29:16.329Z"
+  },
+  {
+    "id": "1759104446610",
+    "number": "6285221295220",
+    "name": "Wendy Supriatna, S.Pd.",
+    "start_date": "2025-09-29T07:07:27+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa dian akbar",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T01:21:49.867Z"
+  },
+  {
+    "id": "1759104670765",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-09-29T07:11:11+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:14:42.637Z"
+  },
+  {
+    "id": "1759104904381",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-09-29T07:15:05+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T02:10:20.556Z"
+  },
+  {
+    "id": "1759105408664",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-09-29T07:23:29+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T02:52:15.700Z"
+  },
+  {
+    "id": "1759105477979",
+    "number": "6282217533885",
+    "name": "Heni Ariska, S.Pd.",
+    "start_date": "2025-09-29T07:24:38+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh mettuw",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T06:36:14.659Z"
+  },
+  {
+    "id": "1759105539450",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-09-29T07:25:40+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo TPM Core i3",
+        "qty": 10
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 3
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh anggi",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T03:28:18.567Z"
+  },
+  {
+    "id": "1759106002904",
+    "number": "6281321164064",
+    "name": "Ari Wahyu Dani, ST.",
+    "start_date": "2025-09-29T07:33:23+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh faris",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:14:46.816Z"
+  },
+  {
+    "id": "1759106136844",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-09-29T07:35:37+07:00",
+    "due_date": "2025-09-30T07:33:24+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh wida",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T06:33:51.957Z"
+  },
+  {
+    "id": "1759106829682",
+    "number": "6285888803307",
+    "name": "Irwan Saputra, S.Pd.",
+    "start_date": "2025-09-29T07:47:10+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T07:59:27.913Z"
+  },
+  {
+    "id": "1759109637775",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-09-29T08:33:58+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T02:59:42.927Z"
+  },
+  {
+    "id": "1759111046690",
+    "number": "6282121115411",
+    "name": "Siti Hasti, S.Pd.",
+    "start_date": "2025-09-29T08:57:27+07:00",
+    "due_date": "2025-09-30T08:56:07+07:00",
+    "items": [
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh rizki",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T03:28:14.262Z"
+  },
+  {
+    "id": "1759111602259",
+    "number": "6285221295220",
+    "name": "Wendy Supriatna, S.Pd.",
+    "start_date": "2025-09-29T09:06:42+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh daris",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T03:35:01.031Z"
+  },
+  {
+    "id": "1759112553227",
+    "number": "6285221295220",
+    "name": "Wendy Supriatna, S.Pd.",
+    "start_date": "2025-09-29T09:22:33+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh daris",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T03:35:03.228Z"
+  },
+  {
+    "id": "1759114594989",
+    "number": "6281321164064",
+    "name": "Ari Wahyu Dani, ST.",
+    "start_date": "2025-09-29T09:56:35+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa ",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T07:38:40.498Z"
+  },
+  {
+    "id": "1759117275652",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-09-29T10:41:16+07:00",
+    "due_date": "2025-09-30T10:40:05+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo TPM Core i3",
+        "qty": 6
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:05:12.004Z"
+  },
+  {
+    "id": "1759117310709",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-09-29T10:41:51+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBMq",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:05:15.915Z"
+  },
+  {
+    "id": "1759123408305",
+    "number": "6285222438660",
+    "name": "Dra. Hj. Heti Perdiati",
+    "start_date": "2025-09-29T12:23:28+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:01:00.862Z"
+  },
+  {
+    "id": "1759125221555",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-09-29T12:53:42+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 9
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T06:50:41.154Z"
+  },
+  {
+    "id": "1759126284217",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-09-29T13:11:24+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rona",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T07:54:06.261Z"
+  },
+  {
+    "id": "1759126949677",
+    "number": "6281313288118",
+    "name": "Heni Juwita Santosa, S.Pd.",
+    "start_date": "2025-09-29T13:22:30+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:23:10.251Z"
+  },
+  {
+    "id": "1759128382021",
+    "number": "6282111176699",
+    "name": "Lia Yuliasari, S.Pd.",
+    "start_date": "2025-09-29T13:46:22+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh salsabila",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T07:47:37.066Z"
+  },
+  {
+    "id": "1759128773212",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-09-29T13:52:53+07:00",
+    "due_date": "2025-09-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rizki",
+    "status": "dikembalikan",
+    "returned_at": "2025-09-29T08:08:54.457Z"
+  },
+  {
+    "id": "1759189718271",
+    "number": "6285222438660",
+    "name": "Dra. Hj. Heti Perdiati",
+    "start_date": "2025-09-30T06:48:38+07:00",
+    "due_date": "2025-09-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759190140034",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-09-30T06:55:40+07:00",
+    "due_date": "2025-09-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 8
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh XII MP 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759190243838",
+    "number": "6282119587474",
+    "name": "Dra. Hj. Yayah Bahriah",
+    "start_date": "2025-09-30T06:57:24+07:00",
+    "due_date": "2025-09-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 8
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759191233598",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-09-30T07:13:54+07:00",
+    "due_date": "2025-09-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T00:39:15.351Z"
+  },
+  {
+    "id": "1759191269656",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-09-30T07:14:30+07:00",
+    "due_date": "2025-09-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh andika",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759191835306",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-09-30T07:23:55+07:00",
+    "due_date": "2025-09-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759289701848",
+    "number": "6287823382065",
+    "name": "Reni Ika Wijayanti, M.Pd.",
+    "start_date": "2025-10-01T10:35:01+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa satria",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:07:46.834Z"
+  },
+  {
+    "id": "1759291513113",
+    "number": "6285220418388",
+    "name": "Tina Mulayyinatun Nisa, S.Pd.",
+    "start_date": "2025-10-01T11:05:12+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 15
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T07:59:12.959Z"
+  },
+  {
+    "id": "1759291668625",
+    "number": "6281280789450",
+    "name": "Endang Taufik",
+    "start_date": "2025-10-01T11:11:59+07:00",
+    "due_date": "2025-10-02T11:11:16+07:00",
+    "items": [
+      {
+        "item_name": "Tablet ADVAN 8001",
+        "qty": 1
+      }
+    ],
+    "purpose": "peminjaman pribadi",
+    "notes": "tablet advan no 226",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T00:50:28.111Z"
+  },
+  {
+    "id": "1759296824375",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-01T12:33:43+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ganjar",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T07:58:12.828Z"
+  },
+  {
+    "id": "1759297032676",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-01T12:37:12+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh halwa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:14:42.596Z"
+  },
+  {
+    "id": "1759297760913",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-01T12:49:20+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 4
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh adam",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:08:38.464Z"
+  },
+  {
+    "id": "1759297896118",
+    "number": "6282317053229",
+    "name": "Asep Ridwan, S.T",
+    "start_date": "2025-10-01T12:51:35+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh andhika",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:30:14.796Z"
+  },
+  {
+    "id": "1759299406220",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-01T13:16:45+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh tyo",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:08:33.937Z"
+  },
+  {
+    "id": "1759299657994",
+    "number": "6285221344115",
+    "name": "Asep Zainal Arifin, S.Pd.I.",
+    "start_date": "2025-10-01T13:20:57+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:03:56.809Z"
+  },
+  {
+    "id": "1759301543670",
+    "number": "6282111176699",
+    "name": "Lia Yuliasari, S.Pd.",
+    "start_date": "2025-10-01T13:52:23+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh tiara",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-01T08:08:12.743Z"
+  },
+  {
+    "id": "1759306370726",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-10-01T15:12:50+07:00",
+    "due_date": "2025-10-01T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa adit",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-08T01:31:39.303Z"
+  },
+  {
+    "id": "1759364132212",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-10-02T07:15:31+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ranum ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T01:38:01.142Z"
+  },
+  {
+    "id": "1759364677121",
+    "number": "6282217533885",
+    "name": "Heni Ariska, S.Pd.",
+    "start_date": "2025-10-02T07:24:36+07:00",
+    "due_date": "2025-10-03T07:15:32+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kmb",
+    "notes": "nadia",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T01:37:11.308Z"
+  },
+  {
+    "id": "1759365019031",
+    "number": "6287727066000",
+    "name": "Muhamad Abdul Hadi, S.Pd.",
+    "start_date": "2025-10-02T07:30:18+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 8
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T01:02:33.492Z"
+  },
+  {
+    "id": "1759365288037",
+    "number": "6285317734135",
+    "name": "Ela Nurlela, S.Pd.",
+    "start_date": "2025-10-02T07:34:47+07:00",
+    "due_date": "2025-10-03T07:30:18+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswi ribby",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T02:53:02.252Z"
+  },
+  {
+    "id": "1759365350920",
+    "number": "6287823382065",
+    "name": "Reni Ika Wijayanti, M.Pd.",
+    "start_date": "2025-10-02T07:35:50+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:50:16.765Z"
+  },
+  {
+    "id": "1759365595763",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-10-02T07:39:55+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T02:12:50.400Z"
+  },
+  {
+    "id": "1759366941369",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-10-02T08:02:20+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 4
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T08:46:28.642Z"
+  },
+  {
+    "id": "1759366980567",
+    "number": "6287727066000",
+    "name": "Muhamad Abdul Hadi, S.Pd.",
+    "start_date": "2025-10-02T08:02:59+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T02:50:43.022Z"
+  },
+  {
+    "id": "1759368337294",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-10-02T08:25:36+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Denis",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T02:07:47.052Z"
+  },
+  {
+    "id": "1759369987820",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-02T08:53:07+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T03:06:04.165Z"
+  },
+  {
+    "id": "1759370329037",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-02T08:58:48+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh abuy",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T08:07:48.581Z"
+  },
+  {
+    "id": "1759371974525",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-02T09:26:13+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh bu titah",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T08:49:11.065Z"
+  },
+  {
+    "id": "1759372125584",
+    "number": "6289655617417",
+    "name": "Taufik Dzikri Pangestu, S.Pd.",
+    "start_date": "2025-10-02T09:28:44+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm ",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:47:01.182Z"
+  },
+  {
+    "id": "1759373244977",
+    "number": "6287822723988",
+    "name": "Hermawati Setyani Aksari, S.Pd.",
+    "start_date": "2025-10-02T09:47:24+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh alif",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T05:45:56.887Z"
+  },
+  {
+    "id": "1759374409866",
+    "number": "6289670351213",
+    "name": "Sapa Oktapiani, S.Pd.",
+    "start_date": "2025-10-02T10:06:49+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh halimah",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T05:23:16.309Z"
+  },
+  {
+    "id": "1759375120729",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-10-02T10:18:40+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T04:44:49.677Z"
+  },
+  {
+    "id": "1759375158396",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-02T10:19:17+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T04:45:28.317Z"
+  },
+  {
+    "id": "1759375223197",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-02T10:20:22+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T04:45:47.640Z"
+  },
+  {
+    "id": "1759375666002",
+    "number": "6285221344115",
+    "name": "Asep Zainal Arifin, S.Pd.I.",
+    "start_date": "2025-10-02T10:27:45+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "bkm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T06:18:40.919Z"
+  },
+  {
+    "id": "1759379664886",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-10-02T11:34:24+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T06:46:08.377Z"
+  },
+  {
+    "id": "1759383290219",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-10-02T12:34:50+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:18:26.909Z"
+  },
+  {
+    "id": "1759383534638",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-02T12:38:54+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:49:42.853Z"
+  },
+  {
+    "id": "1759383612520",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-10-02T12:40:12+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:58:05.969Z"
+  },
+  {
+    "id": "1759384027034",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-02T12:47:07+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 2
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T06:50:02.949Z"
+  },
+  {
+    "id": "1759384071594",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-10-02T12:47:51+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:58:02.136Z"
+  },
+  {
+    "id": "1759384245225",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-02T12:50:45+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:37:06.411Z"
+  },
+  {
+    "id": "1759386725569",
+    "number": "6283195597147",
+    "name": "Dadang, S.Pd.I.",
+    "start_date": "2025-10-02T13:32:05+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh akbar",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:45:55.267Z"
+  },
+  {
+    "id": "1759387027153",
+    "number": "6285221344115",
+    "name": "Asep Zainal Arifin, S.Pd.I.",
+    "start_date": "2025-10-02T13:37:07+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T08:15:19.685Z"
+  },
+  {
+    "id": "1759387520329",
+    "number": "6288289406929",
+    "name": "Keresna Bayu Wijaya Kusuma, S.Pd.",
+    "start_date": "2025-10-02T13:45:20+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh arul",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T08:25:24.582Z"
+  },
+  {
+    "id": "1759387839980",
+    "number": "6285222438660",
+    "name": "Dra. Hj. Heti Perdiati",
+    "start_date": "2025-10-02T13:50:39+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh airin",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:41:45.810Z"
+  },
+  {
+    "id": "1759388121043",
+    "number": "6282217533885",
+    "name": "Heni Ariska, S.Pd.",
+    "start_date": "2025-10-02T13:55:20+07:00",
+    "due_date": "2025-10-02T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rifa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-02T07:49:29.934Z"
+  },
+  {
+    "id": "1759451561483",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-03T07:32:26+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:00:54.926Z"
+  },
+  {
+    "id": "1759451613970",
+    "number": "6281313152162",
+    "name": "Deden Suryanto, M.Pd.",
+    "start_date": "2025-10-03T07:33:34+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh naif",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T00:35:29.708Z"
+  },
+  {
+    "id": "1759451869496",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-03T07:37:49+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh naif",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T00:55:37.487Z"
+  },
+  {
+    "id": "1759451905269",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-10-03T07:38:25+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh aryanti",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T00:39:09.838Z"
+  },
+  {
+    "id": "1759452014607",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-10-03T07:40:14+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 4
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh aryanti",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:00:58.910Z"
+  },
+  {
+    "id": "1759452519902",
+    "number": "628113351395",
+    "name": "Hafizh Handitia, S.Pd.",
+    "start_date": "2025-10-03T07:48:40+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 2
+      }
+    ],
+    "purpose": "olimpiade di aula",
+    "notes": "diambil oleh devio 11 akl 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T03:14:04.760Z"
+  },
+  {
+    "id": "1759452809137",
+    "number": "6282217533885",
+    "name": "Heni Ariska, S.Pd.",
+    "start_date": "2025-10-03T07:53:29+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh randi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T03:52:47.270Z"
+  },
+  {
+    "id": "1759452872874",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-03T07:54:33+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "dimbil oleh muhammad ikbal",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:02:23.007Z"
+  },
+  {
+    "id": "1759452999671",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-03T07:56:39+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 2
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 5
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh keiza",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T00:57:01.355Z"
+  },
+  {
+    "id": "1759453076012",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-03T07:57:56+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh keiza",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:22.546Z"
+  },
+  {
+    "id": "1759454273622",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-10-03T08:17:53+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T02:36:33.126Z"
+  },
+  {
+    "id": "1759454528754",
+    "number": "6283195597147",
+    "name": "Dadang, S.Pd.I.",
+    "start_date": "2025-10-03T08:22:09+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh devio",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T03:14:10.395Z"
+  },
+  {
+    "id": "1759454721567",
+    "number": "6281312218219",
+    "name": "Asep Saepuloh, S.S.",
+    "start_date": "2025-10-03T08:25:21+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T03:22:41.325Z"
+  },
+  {
+    "id": "1759459223080",
+    "number": "6287822723988",
+    "name": "Hermawati Setyani Aksari, S.Pd.",
+    "start_date": "2025-10-03T09:40:23+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T03:54:55.634Z"
+  },
+  {
+    "id": "1759459422266",
+    "number": "6285221344115",
+    "name": "Asep Zainal Arifin, S.Pd.I.",
+    "start_date": "2025-10-03T09:43:42+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:20.908Z"
+  },
+  {
+    "id": "1759459864711",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-10-03T09:51:04+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T04:08:40.057Z"
+  },
+  {
+    "id": "1759461292344",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-10-03T10:14:52+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh hendra",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T05:36:12.289Z"
+  },
+  {
+    "id": "1759469800715",
+    "number": "6288289406929",
+    "name": "Keresna Bayu Wijaya Kusuma, S.Pd.",
+    "start_date": "2025-10-03T12:36:40+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh desray",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:19.082Z"
+  },
+  {
+    "id": "1759469866969",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-03T12:37:47+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kegiatan",
+    "notes": "diambil oleh bu cahya",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T05:28:20.962Z"
+  },
+  {
+    "id": "1759470028142",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-10-03T12:40:28+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ibu dewi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:08.185Z"
+  },
+  {
+    "id": "1759470179209",
+    "number": "6285222438660",
+    "name": "Dra. Hj. Heti Perdiati",
+    "start_date": "2025-10-03T12:42:59+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "elvinza",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:59.564Z"
+  },
+  {
+    "id": "1759470550301",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-03T12:49:10+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh yg botak",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1759470925218",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-10-03T12:55:25+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:11.035Z"
+  },
+  {
+    "id": "1759471080269",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-10-03T12:58:00+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T05:58:33.749Z"
+  },
+  {
+    "id": "1759471136320",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-10-03T12:58:56+07:00",
+    "due_date": "2025-10-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-03T08:01:12.992Z"
+  },
+  {
+    "id": "1759711819067",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-10-06T07:50:18+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh zahwa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T02:58:21.190Z"
+  },
+  {
+    "id": "1759711872813",
+    "number": "6282315185667",
+    "name": "Nana Anggraeni, S.Pd.",
+    "start_date": "2025-10-06T07:51:11+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh putri",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T06:55:43.297Z"
+  },
+  {
+    "id": "1759711915412",
+    "number": "6289637088949",
+    "name": "Elis Waliah, S.Ag.",
+    "start_date": "2025-10-06T07:51:54+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T04:29:47.031Z"
+  },
+  {
+    "id": "1759711980918",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-06T07:52:59+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T02:58:02.040Z"
+  },
+  {
+    "id": "1759712379553",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-06T07:59:38+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh misbah",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T02:57:54.123Z"
+  },
+  {
+    "id": "1759712472759",
+    "number": "6283195597147",
+    "name": "Dadang, S.Pd.I.",
+    "start_date": "2025-10-06T08:01:11+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ima",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759712921208",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-10-06T08:08:40+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 4
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T02:58:11.396Z"
+  },
+  {
+    "id": "1759713177653",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-10-06T08:12:56+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 6
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Nane",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:45:17.708Z"
+  },
+  {
+    "id": "1759713264055",
+    "number": "6285295006619",
+    "name": "Jelin, S.Pd.I",
+    "start_date": "2025-10-06T08:14:23+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Itsna",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T08:43:57.581Z"
+  },
+  {
+    "id": "1759713496676",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-06T08:18:15+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Bayhaqi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T03:50:55.861Z"
+  },
+  {
+    "id": "1759713676137",
+    "number": "6285888803307",
+    "name": "Irwan Saputra, S.Pd.",
+    "start_date": "2025-10-06T08:21:15+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:54:43.586Z"
+  },
+  {
+    "id": "1759713984098",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-06T08:26:22+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh azhar",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T03:11:03.860Z"
+  },
+  {
+    "id": "1759714329800",
+    "number": "6289655617417",
+    "name": "Taufik Dzikri Pangestu, S.Pd.",
+    "start_date": "2025-10-06T08:32:08+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:54:52.630Z"
+  },
+  {
+    "id": "1759714928802",
+    "number": "6282121115411",
+    "name": "Siti Hasti, S.Pd.",
+    "start_date": "2025-10-06T08:42:07+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T06:12:22.947Z"
+  },
+  {
+    "id": "1759717575220",
+    "number": "6285222728787",
+    "name": "Putri Maulida Hutami, S.Pd.",
+    "start_date": "2025-10-06T09:26:12+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 15
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:45:33.012Z"
+  },
+  {
+    "id": "1759719863671",
+    "number": "6289637088949",
+    "name": "Elis Waliah, S.Ag.",
+    "start_date": "2025-10-06T10:04:21+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Tiara",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T04:29:42.972Z"
+  },
+  {
+    "id": "1759720364480",
+    "number": "6281321164064",
+    "name": "Ari Wahyu Dani, ST.",
+    "start_date": "2025-10-06T10:12:43+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:39:12.013Z"
+  },
+  {
+    "id": "1759721713949",
+    "number": "6285221771084",
+    "name": "Hj. Siti Halimah, S.Pd.",
+    "start_date": "2025-10-06T10:35:12+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Rizki",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:28:21.075Z"
+  },
+  {
+    "id": "1759722505825",
+    "number": "6285222054181",
+    "name": "Agus Wahyu, S.Pd.",
+    "start_date": "2025-10-06T10:48:24+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T05:59:14.070Z"
+  },
+  {
+    "id": "1759722966051",
+    "number": "6283195597147",
+    "name": "Dadang, S.Pd.I.",
+    "start_date": "2025-10-06T10:56:05+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:58:40.778Z"
+  },
+  {
+    "id": "1759723855715",
+    "number": "6285295006619",
+    "name": "Jelin, S.Pd.I",
+    "start_date": "2025-10-06T11:10:54+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T06:12:42.687Z"
+  },
+  {
+    "id": "1759724601722",
+    "number": "6289699660620",
+    "name": "Faisal Akbar, SE.",
+    "start_date": "2025-10-06T11:23:20+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:54:36.986Z"
+  },
+  {
+    "id": "1759727526116",
+    "number": "6285220161168",
+    "name": "Aam Amalia, S.Pd.",
+    "start_date": "2025-10-06T12:12:05+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Tio",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T06:47:44.383Z"
+  },
+  {
+    "id": "1759727668598",
+    "number": "6282217533885",
+    "name": "Heni Ariska, S.Pd.",
+    "start_date": "2025-10-06T12:14:27+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T06:49:35.590Z"
+  },
+  {
+    "id": "1759728951057",
+    "number": "6285295006619",
+    "name": "Jelin, S.Pd.I",
+    "start_date": "2025-10-06T12:35:49+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "USB-B",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh padlan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T06:12:46.327Z"
+  },
+  {
+    "id": "1759730020612",
+    "number": "6285321311304",
+    "name": "Wida Widianingsih, S.Pd",
+    "start_date": "2025-10-06T12:53:39+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T08:04:31.531Z"
+  },
+  {
+    "id": "1759731084797",
+    "number": "6285221344115",
+    "name": "Asep Zainal Arifin, S.Pd.I.",
+    "start_date": "2025-10-06T13:11:23+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T08:14:55.967Z"
+  },
+  {
+    "id": "1759733711760",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-06T13:55:10+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T08:05:26.695Z"
+  },
+  {
+    "id": "1759733857601",
+    "number": "6282111176699",
+    "name": "Lia Yuliasari, S.Pd.",
+    "start_date": "2025-10-06T13:57:36+07:00",
+    "due_date": "2025-10-06T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh dessray",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-06T07:46:33.676Z"
+  },
+  {
+    "id": "1759801935739",
+    "number": "6285220418388",
+    "name": "Tina Mulayyinatun Nisa, S.Pd.",
+    "start_date": "2025-10-07T08:52:14+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 15
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh adi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T06:46:31.499Z"
+  },
+  {
+    "id": "1759801961161",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-07T08:52:40+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh alif",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T04:38:56.564Z"
+  },
+  {
+    "id": "1759803418633",
+    "number": "6287822723988",
+    "name": "Hermawati Setyani Aksari, S.Pd.",
+    "start_date": "2025-10-07T09:16:57+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Adi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T04:26:57.532Z"
+  },
+  {
+    "id": "1759807279548",
+    "number": "6289670351213",
+    "name": "Sapa Oktapiani, S.Pd.",
+    "start_date": "2025-10-07T10:21:18+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Rona",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:06:17.700Z"
+  },
+  {
+    "id": "1759807800824",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-10-07T10:29:59+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh nova",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T05:55:00.498Z"
+  },
+  {
+    "id": "1759807879627",
+    "number": "6281321164064",
+    "name": "Ari Wahyu Dani, ST.",
+    "start_date": "2025-10-07T10:31:18+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T07:43:13.248Z"
+  },
+  {
+    "id": "1759813239569",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-07T12:00:38+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:14:53.722Z"
+  },
+  {
+    "id": "1759814339113",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-07T12:18:58+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Faisal",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:01:17.847Z"
+  },
+  {
+    "id": "1759815818131",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-10-07T12:43:37+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 3
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T07:44:24.840Z"
+  },
+  {
+    "id": "1759816485253",
+    "number": "6287727066000",
+    "name": "Muhamad Abdul Hadi, S.Pd.",
+    "start_date": "2025-10-07T12:54:44+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T07:56:58.838Z"
+  },
+  {
+    "id": "1759817847191",
+    "number": "6285295006619",
+    "name": "Jelin, S.Pd.I",
+    "start_date": "2025-10-07T13:17:26+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh devio",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T07:39:20.948Z"
+  },
+  {
+    "id": "1759818137168",
+    "number": "6282317053229",
+    "name": "Asep Ridwan, S.T",
+    "start_date": "2025-10-07T13:22:16+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh iki",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:40:45.347Z"
+  },
+  {
+    "id": "1759818915384",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-07T13:35:14+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh fadla",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:04:49.788Z"
+  },
+  {
+    "id": "1759819172476",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-07T13:39:31+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambiln oleh risma",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1759824577271",
+    "number": "6285215541554",
+    "name": "Iin Solihin, M.Pd.",
+    "start_date": "2025-10-07T15:09:36+07:00",
+    "due_date": "2025-10-07T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-07T08:05:03.750Z"
+  },
+  {
+    "id": "1760321518194",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-13T09:11:56+07:00",
+    "due_date": "2025-10-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "serial_number": 1315056715,
+        "note": "hm"
+      },
+      {
+        "item_name": "Proyektor",
+        "serial_number": 123642947,
+        "note": ""
+      }
+    ],
+    "purpose": "test",
+    "notes": "nyoba",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-13T03:44:38.174Z"
+  },
+  {
+    "id": "1760322279891",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-13T09:24:38+07:00",
+    "due_date": "2025-10-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "test",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-13T02:30:33.738Z"
+  },
+  {
+    "id": "1760327238298",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-13T10:47:16+07:00",
+    "due_date": "2025-10-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-13T03:49:27.792Z"
+  },
+  {
+    "id": "1760327318052",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-13T10:48:37+07:00",
+    "due_date": "2025-10-14T10:47:47+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "test",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-13T03:49:12.077Z"
+  },
+  {
+    "id": "1760329106454",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-13T11:18:23+07:00",
+    "due_date": "2025-10-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 2
+      },
+      {
+        "item_name": "Kabel HDMI",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "tesw",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-13T04:28:33.828Z"
+  },
+  {
+    "id": "1760408748192",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-14T09:25:47+07:00",
+    "due_date": "2025-10-14T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40",
+        "qty": 2
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-14T02:27:17.364Z"
+  },
+  {
+    "id": "1760411655614",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-14T10:14:13+07:00",
+    "due_date": "2025-10-14T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40",
+        "qty": 5
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh abdi",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1760495581579",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-15T02:50:00.000Z",
+    "due_date": "2025-10-16T02:50:00.000Z",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM ",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-15T02:43:20.239Z"
+  },
+  {
+    "id": "1760501354587",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-15T05:00:00.000Z",
+    "due_date": "2025-10-16T05:00:00.000Z",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "tes",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1760572571619",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-10-16T06:56:11+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T02:16:26.915Z"
+  },
+  {
+    "id": "1760574672451",
+    "number": "6285221344115",
+    "name": "Asep Zainal Arifin, S.Pd.I.",
+    "start_date": "2025-10-16T07:31:12+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T02:17:12.907Z"
+  },
+  {
+    "id": "1760574860906",
+    "number": "6285222054181",
+    "name": "Agus Wahyu, S.Pd.",
+    "start_date": "2025-10-16T07:34:20+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo Ideapad 320 Core i3",
+        "qty": 7
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T06:25:12.908Z"
+  },
+  {
+    "id": "1760574921333",
+    "number": "6285221869008",
+    "name": "Fippa Insani, S.Pd.",
+    "start_date": "2025-10-16T07:35:21+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Intan AKL 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T03:01:04.706Z"
+  },
+  {
+    "id": "1760575139395",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-10-16T07:38:59+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T02:59:21.473Z"
+  },
+  {
+    "id": "1760575440904",
+    "number": "6282317053229",
+    "name": "Asep Ridwan, S.T",
+    "start_date": "2025-10-16T07:44:00+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh XII TKJ 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T03:15:01.954Z"
+  },
+  {
+    "id": "1760575594584",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-16T07:46:34+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Denis XII RPL 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T05:19:24.731Z"
+  },
+  {
+    "id": "1760575992094",
+    "number": "6285172001028",
+    "name": "Retno Novia Andriani, S.Kom",
+    "start_date": "2025-10-16T07:53:11+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T02:50:51.958Z"
+  },
+  {
+    "id": "1760576375537",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-16T07:59:35+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T01:31:18.728Z"
+  },
+  {
+    "id": "1760578774234",
+    "number": "6285220418388",
+    "name": "Tina Mulayyinatun Nisa, S.Pd.",
+    "start_date": "2025-10-16T08:39:34+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T07:01:02.436Z"
+  },
+  {
+    "id": "1760579600472",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-16T08:53:20+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 5
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T05:23:26.043Z"
+  },
+  {
+    "id": "1760579660729",
+    "number": "6289525505973",
+    "name": "Dian Maelani, S.Pd.",
+    "start_date": "2025-10-16T08:54:20+07:00",
+    "due_date": "2025-10-17T08:53:26+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T07:06:34.712Z"
+  },
+  {
+    "id": "1760581566951",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-16T09:26:06+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:01:56.785Z"
+  },
+  {
+    "id": "1760585116309",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-16T10:25:16+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T04:46:47.255Z"
+  },
+  {
+    "id": "1760586823119",
+    "number": "6282316150334",
+    "name": "Ratinah, S.Pd.",
+    "start_date": "2025-10-16T10:53:42+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil Caca XI TKJ 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T04:17:21.176Z"
+  },
+  {
+    "id": "1760592162459",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-16T12:22:42+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil aguy darwis",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:04:00.540Z"
+  },
+  {
+    "id": "1760592274006",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-16T12:24:33+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 5
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "pindahan peminjaman dari bu yani",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:03:53.894Z"
+  },
+  {
+    "id": "1760592394746",
+    "number": "62895635110801",
+    "name": "Intjer Kurnia Syukur, S.T",
+    "start_date": "2025-10-16T12:26:34+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:46:53.823Z"
+  },
+  {
+    "id": "1760592752089",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-16T12:32:31+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh dessray",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T06:49:39.680Z"
+  },
+  {
+    "id": "1760594197266",
+    "number": "6287864446844",
+    "name": "Elin Neli Novianti, S.Pd.",
+    "start_date": "2025-10-16T12:56:36+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh bunda elin 11 kl",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:07:58.341Z"
+  },
+  {
+    "id": "1760594248087",
+    "number": "6287823382065",
+    "name": "Reni Ika Wijayanti, M.Pd.",
+    "start_date": "2025-10-16T12:57:27+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 3
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T07:55:29.618Z"
+  },
+  {
+    "id": "1760594812423",
+    "number": "6287823382065",
+    "name": "Reni Ika Wijayanti, M.Pd.",
+    "start_date": "2025-10-16T13:06:52+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh herma dan bunga 10 ps ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T07:55:20.513Z"
+  },
+  {
+    "id": "1760595379397",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-10-16T13:16:19+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "DI AMBIL OLEH SISWA LATIFAH 11 AK 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T07:32:20.052Z"
+  },
+  {
+    "id": "1760596688350",
+    "number": "6287828158057",
+    "name": "Rizal Suyaman S.Kom.",
+    "start_date": "2025-10-16T13:38:07+07:00",
+    "due_date": "2025-10-17T13:37:02+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:02:33.027Z"
+  },
+  {
+    "id": "1760596876054",
+    "number": "6287823382065",
+    "name": "Reni Ika Wijayanti, M.Pd.",
+    "start_date": "2025-10-16T13:41:15+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 4
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T07:55:45.933Z"
+  },
+  {
+    "id": "1760597065644",
+    "number": "62895635110801",
+    "name": "Intjer Kurnia Syukur, S.T",
+    "start_date": "2025-10-16T13:44:25+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "USB to LAN",
+        "qty": 4
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "di ambil oleh siswa shofa rizki afatih 11 tkj 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:52:26.312Z"
+  },
+  {
+    "id": "1760598348816",
+    "number": "6285295006619",
+    "name": "Jelin, S.Pd.I",
+    "start_date": "2025-10-16T14:05:48+07:00",
+    "due_date": "2025-10-16T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh ihsan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-16T08:05:33.581Z"
+  },
+  {
+    "id": "1760657770929",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-17T06:36:11+07:00",
+    "due_date": "2025-10-18T06:35:42+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:23:34.270Z"
+  },
+  {
+    "id": "1760660147711",
+    "number": "6285172001028",
+    "name": "Retno Novia Andriani, S.Kom",
+    "start_date": "2025-10-17T07:15:47+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T03:02:46.027Z"
+  },
+  {
+    "id": "1760660326444",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-17T07:18:46+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:04:42.984Z"
+  },
+  {
+    "id": "1760661400501",
+    "number": "6282317053229",
+    "name": "Asep Ridwan, S.T",
+    "start_date": "2025-10-17T07:36:40+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh XII TKJ 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T01:27:07.615Z"
+  },
+  {
+    "id": "1760661900870",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-17T07:45:01+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T02:08:54.755Z"
+  },
+  {
+    "id": "1760662368679",
+    "number": "6281389939197",
+    "name": "Setyasih, S.E.",
+    "start_date": "2025-10-17T07:52:48+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:21:03.476Z"
+  },
+  {
+    "id": "1760662434497",
+    "number": "6281320567340",
+    "name": "Deni Muliana, S.Pd.",
+    "start_date": "2025-10-17T07:53:54+07:00",
+    "due_date": "2025-10-18T07:52:49+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 4
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi kerin 12 mp 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T04:00:55.644Z"
+  },
+  {
+    "id": "1760662507145",
+    "number": "6289670351213",
+    "name": "Sapa Oktapiani, S.Pd.",
+    "start_date": "2025-10-17T07:55:07+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh 12 MP 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T06:32:23.833Z"
+  },
+  {
+    "id": "1760663023299",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-17T08:03:43+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo Ideapad 320 Core i3",
+        "qty": 13
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:06:13.168Z"
+  },
+  {
+    "id": "1760663513245",
+    "number": "6282119587474",
+    "name": "Dra. Hj. Yayah Bahriah",
+    "start_date": "2025-10-17T08:11:53+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T05:58:25.435Z"
+  },
+  {
+    "id": "1760663589914",
+    "number": "6281320567340",
+    "name": "Deni Muliana, S.Pd.",
+    "start_date": "2025-10-17T08:13:10+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1760663650835",
+    "number": "6282119587474",
+    "name": "Dra. Hj. Yayah Bahriah",
+    "start_date": "2025-10-17T08:14:11+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1760664076467",
+    "number": "6285222728787",
+    "name": "Putri Maulida Hutami, S.Pd.",
+    "start_date": "2025-10-17T08:21:16+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Kabel HDMI",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T06:51:38.057Z"
+  },
+  {
+    "id": "1760664363935",
+    "number": "6281320567340",
+    "name": "Deni Muliana, S.Pd.",
+    "start_date": "2025-10-17T08:26:04+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T05:32:53.347Z"
+  },
+  {
+    "id": "1760665217480",
+    "number": "6281320567340",
+    "name": "Deni Muliana, S.Pd.",
+    "start_date": "2025-10-17T08:40:17+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T05:33:07.105Z"
+  },
+  {
+    "id": "1760666770215",
+    "number": "6289525505973",
+    "name": "Dian Maelani, S.Pd.",
+    "start_date": "2025-10-17T09:06:10+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T06:20:39.988Z"
+  },
+  {
+    "id": "1760668509809",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-10-17T09:35:09+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T06:06:41.194Z"
+  },
+  {
+    "id": "1760669950927",
+    "number": "6288218366466",
+    "name": "Abdi Putrana Radian",
+    "start_date": "2025-10-17T09:59:11+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 2
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "tes",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:10:35.228Z"
+  },
+  {
+    "id": "1760671270010",
+    "number": "62895635110801",
+    "name": "Intjer Kurnia Syukur, S.T",
+    "start_date": "2025-10-17T10:21:10+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh XI TKJ 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:14:00.004Z"
+  },
+  {
+    "id": "1760671361391",
+    "number": "6287864446844",
+    "name": "Elin Neli Novianti, S.Pd.",
+    "start_date": "2025-10-17T10:22:41+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:05:39.175Z"
+  },
+  {
+    "id": "1760671583407",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-17T10:26:23+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:04:02.252Z"
+  },
+  {
+    "id": "1760680043006",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-17T12:47:23+07:00",
+    "due_date": "2025-10-18T12:46:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:13:06.035Z"
+  },
+  {
+    "id": "1760680374633",
+    "number": "6285295006619",
+    "name": "Jelin, S.Pd.I",
+    "start_date": "2025-10-17T12:52:54+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM ",
+    "notes": "di ambil oleh siswa sechi 11 ak 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T06:34:08.731Z"
+  },
+  {
+    "id": "1760589643425",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-10-17T05:30:00.000Z",
+    "due_date": "2025-10-18T05:30:00.000Z",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:05:57.630Z"
+  },
+  {
+    "id": "1760681064248",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-10-17T13:04:24+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T06:57:54.096Z"
+  },
+  {
+    "id": "1760681156135",
+    "number": "6289531086928",
+    "name": "Melly Anggraeni, S.Pd",
+    "start_date": "2025-10-17T13:05:56+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "di ambil oloeh siswa arya 11 tkj 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-17T07:20:11.641Z"
+  },
+  {
+    "id": "1760686678398",
+    "number": "6289655725138",
+    "name": "Aldy Agustiansyah",
+    "start_date": "2025-10-17T14:37:58+07:00",
+    "due_date": "2025-10-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "eskul ",
+    "notes": " diambil pa aldi langsung",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T01:19:17.289Z"
+  },
+  {
+    "id": "1760919436510",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-20T07:17:16+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T03:03:30.569Z"
+  },
+  {
+    "id": "1760921806233",
+    "number": "6281321164064",
+    "name": "Ari Wahyu Dani, ST.",
+    "start_date": "2025-10-20T07:56:45+07:00",
+    "due_date": "2025-10-21T07:55:28+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T02:02:18.422Z"
+  },
+  {
+    "id": "1760922284686",
+    "number": "6282317053229",
+    "name": "Asep Ridwan, S.T",
+    "start_date": "2025-10-20T08:04:44+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Naufal XII TKJ 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T03:04:25.063Z"
+  },
+  {
+    "id": "1760922576591",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-20T08:09:36+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo Ideapad 320 Core i3",
+        "qty": 10
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 3
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T03:40:06.913Z"
+  },
+  {
+    "id": "1760922824686",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-20T08:13:44+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T04:58:24.260Z"
+  },
+  {
+    "id": "1760923003453",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-10-20T08:16:43+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T04:06:38.689Z"
+  },
+  {
+    "id": "1760923523213",
+    "number": "6285888803307",
+    "name": "Irwan Saputra, S.Pd.",
+    "start_date": "2025-10-20T08:25:23+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T08:08:30.962Z"
+  },
+  {
+    "id": "1760925211759",
+    "number": "6283816093077",
+    "name": "Guntur Widianto, S.T",
+    "start_date": "2025-10-20T08:53:32+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T08:07:59.282Z"
+  },
+  {
+    "id": "1760931683990",
+    "number": "6285222054181",
+    "name": "Agus Wahyu, S.Pd.",
+    "start_date": "2025-10-20T10:41:24+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo Ideapad 320 Core i3",
+        "qty": 10
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 3
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Guntur",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T08:03:18.113Z"
+  },
+  {
+    "id": "1760931867257",
+    "number": "6285222728787",
+    "name": "Putri Maulida Hutami, S.Pd.",
+    "start_date": "2025-10-20T10:44:27+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T06:48:34.598Z"
+  },
+  {
+    "id": "1760933641170",
+    "number": "6282318951974",
+    "name": "Sari Utami, SE.",
+    "start_date": "2025-10-20T11:14:01+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T08:13:56.345Z"
+  },
+  {
+    "id": "1760938019968",
+    "number": "6285220161168",
+    "name": "Aam Amalia, S.Pd.",
+    "start_date": "2025-10-20T12:27:00+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh tio",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T06:48:43.443Z"
+  },
+  {
+    "id": "1760941600815",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-20T13:26:40+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T08:07:33.465Z"
+  },
+  {
+    "id": "1760943198437",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-20T13:53:18+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T09:04:29.554Z"
+  },
+  {
+    "id": "1760943256435",
+    "number": "6282111176699",
+    "name": "Lia Yuliasari, S.Pd.",
+    "start_date": "2025-10-20T13:54:16+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Wulan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T07:57:06.610Z"
+  },
+  {
+    "id": "1760944344732",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-20T14:12:24+07:00",
+    "due_date": "2025-10-20T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh raisa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-20T08:02:44.010Z"
+  },
+  {
+    "id": "1761005688750",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-21T07:14:48+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T08:01:06.213Z"
+  },
+  {
+    "id": "1761006050236",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-10-21T07:20:49+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ahmad 10 tm 2",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761006216584",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-21T07:23:36+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh dian ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T06:39:06.363Z"
+  },
+  {
+    "id": "1761006266479",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-21T07:24:25+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rena ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T03:32:28.548Z"
+  },
+  {
+    "id": "1761006442628",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-21T07:27:22+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh badai ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T01:36:19.102Z"
+  },
+  {
+    "id": "1761006891629",
+    "number": "6289637088949",
+    "name": "Elis Waliah, S.Ag.",
+    "start_date": "2025-10-21T07:34:51+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh arul ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T02:16:21.816Z"
+  },
+  {
+    "id": "1761008691270",
+    "number": "6282213018657",
+    "name": "Hj. Siti Maemunah, S.Pd., M.M.Pd.",
+    "start_date": "2025-10-21T08:04:50+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh alvino 10 to 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T03:32:19.765Z"
+  },
+  {
+    "id": "1761011972056",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-21T08:59:31+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761012252590",
+    "number": "6287822723988",
+    "name": "Hermawati Setyani Aksari, S.Pd.",
+    "start_date": "2025-10-21T09:04:12+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ani",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T04:29:53.508Z"
+  },
+  {
+    "id": "1761013972588",
+    "number": "6289637088949",
+    "name": "Elis Waliah, S.Ag.",
+    "start_date": "2025-10-21T09:32:51+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "di ambil oleh siswa RIVA 11 BR3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T05:27:09.020Z"
+  },
+  {
+    "id": "1761024337621",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-21T12:25:36+07:00",
+    "due_date": "2025-10-22T12:24:55+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh candika",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T08:27:41.278Z"
+  },
+  {
+    "id": "1761024498582",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-21T12:28:17+07:00",
+    "due_date": "2025-10-22T12:27:42+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rasma",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T08:03:05.783Z"
+  },
+  {
+    "id": "1761026335889",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-21T12:58:55+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh kevin",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T07:47:46.608Z"
+  },
+  {
+    "id": "1761026448510",
+    "number": "6282317053229",
+    "name": "Asep Ridwan, S.T",
+    "start_date": "2025-10-21T13:00:47+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh febrianto",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T09:14:45.766Z"
+  },
+  {
+    "id": "1761027702887",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-21T13:21:42+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh aryan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T07:52:09.259Z"
+  },
+  {
+    "id": "1761030425051",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-21T14:07:04+07:00",
+    "due_date": "2025-10-21T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "di ambil oleh siswin defa 11 BR 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-21T08:14:49.141Z"
+  },
+  {
+    "id": "1761097634419",
+    "number": "6285222054181",
+    "name": "Agus Wahyu, S.Pd.",
+    "start_date": "2025-10-22T08:47:14+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh farezi 11 tpm 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T02:57:10.682Z"
+  },
+  {
+    "id": "1761098680199",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-22T09:04:40+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh aira",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T03:09:34.518Z"
+  },
+  {
+    "id": "1761099475499",
+    "number": "6285314311803",
+    "name": "Ismaela, SE.",
+    "start_date": "2025-10-22T09:17:55+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "di ambil oleh siswa bagas 10 ps 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T07:54:27.085Z"
+  },
+  {
+    "id": "1761099744344",
+    "number": "6288289406929",
+    "name": "Keresna Bayu Wijaya Kusuma, S.Pd.",
+    "start_date": "2025-10-22T09:22:24+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T08:10:27.284Z"
+  },
+  {
+    "id": "1761103053305",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-10-22T10:17:33+07:00",
+    "due_date": "2025-10-23T10:17:01+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KMB ",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T07:57:14.486Z"
+  },
+  {
+    "id": "1761111782602",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-22T12:43:02+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh zulfikar 11 tsm 2",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T06:45:29.086Z"
+  },
+  {
+    "id": "1761111854781",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-22T12:44:14+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh celloni ",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T07:48:51.861Z"
+  },
+  {
+    "id": "1761113608198",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-22T13:13:28+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rafa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T08:12:11.657Z"
+  },
+  {
+    "id": "1761113947190",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-10-22T13:19:07+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh tika",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T06:41:41.039Z"
+  },
+  {
+    "id": "1761115274597",
+    "number": "6285222438660",
+    "name": "Dra. Hj. Heti Perdiati",
+    "start_date": "2025-10-22T13:41:14+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T07:25:22.912Z"
+  },
+  {
+    "id": "1761115334021",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-10-22T13:42:14+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh tika",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T07:03:26.860Z"
+  },
+  {
+    "id": "1761115759136",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-22T13:49:19+07:00",
+    "due_date": "2025-10-22T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh ryanti",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-22T08:33:12.831Z"
+  },
+  {
+    "id": "1761176837402",
+    "number": "6282115574851",
+    "name": "Ajat Sutiawan, S.Pd.",
+    "start_date": "2025-10-23T06:47:17+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T07:55:17.914Z"
+  },
+  {
+    "id": "1761181228231",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-23T08:00:27+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T01:03:16.314Z"
+  },
+  {
+    "id": "1761182430819",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-23T08:20:30+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh denis 12 rpl 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T02:09:20.972Z"
+  },
+  {
+    "id": "1761182478465",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-10-23T08:21:18+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rafael",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T02:58:49.617Z"
+  },
+  {
+    "id": "1761189651207",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-10-23T10:20:50+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh siswa ibnu",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T04:30:31.377Z"
+  },
+  {
+    "id": "1761197572892",
+    "number": "6287823382065",
+    "name": "Reni Ika Wijayanti, M.Pd.",
+    "start_date": "2025-10-23T12:32:52+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa royhan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T07:50:03.414Z"
+  },
+  {
+    "id": "1761197947978",
+    "number": "6282122127272",
+    "name": "Rizky Hakiki, ST.",
+    "start_date": "2025-10-23T12:39:07+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa rangga",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T07:43:14.224Z"
+  },
+  {
+    "id": "1761198051681",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-10-23T12:40:51+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa tpm",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T07:46:41.846Z"
+  },
+  {
+    "id": "1761198142805",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-10-23T12:42:22+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa ibnu",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T06:58:13.971Z"
+  },
+  {
+    "id": "1761198203162",
+    "number": "6289655617417",
+    "name": "Taufik Dzikri Pangestu, S.Pd.",
+    "start_date": "2025-10-23T12:43:22+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa riyanti",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T07:50:41.508Z"
+  },
+  {
+    "id": "1761199126364",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-23T12:58:45+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa wulan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T07:44:43.466Z"
+  },
+  {
+    "id": "1761201411928",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-23T13:36:51+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa fuzi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T08:08:57.860Z"
+  },
+  {
+    "id": "1761202785865",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-23T13:59:45+07:00",
+    "due_date": "2025-10-23T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "di ambil oleh siswa revan",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-23T08:09:44.393Z"
+  },
+  {
+    "id": "1761208699179",
+    "number": "6282144518200",
+    "name": "Wida Kurnia, S.Ds.",
+    "start_date": "2025-10-23T15:38:18+07:00",
+    "due_date": "2025-10-24T15:37:27+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "ESKUL",
+    "notes": "ESKUL SHARE TECNOLOGY",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761208747747",
+    "number": "6282144518200",
+    "name": "Wida Kurnia, S.Ds.",
+    "start_date": "2025-10-23T15:39:07+07:00",
+    "due_date": "2025-10-24T15:38:38+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "ESKUL",
+    "notes": "SHARE TECHNOLOGY",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761265717662",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-24T07:28:38+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T05:28:57.263Z"
+  },
+  {
+    "id": "1761267586089",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-10-24T07:59:46+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T03:00:58.748Z"
+  },
+  {
+    "id": "1761267648272",
+    "number": "6289637088949",
+    "name": "Elis Waliah, S.Ag.",
+    "start_date": "2025-10-24T08:00:49+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T01:49:51.057Z"
+  },
+  {
+    "id": "1761267835309",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-10-24T08:03:56+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T03:08:13.177Z"
+  },
+  {
+    "id": "1761268438532",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-24T08:13:59+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T03:32:54.355Z"
+  },
+  {
+    "id": "1761268504164",
+    "number": "6285222728787",
+    "name": "Putri Maulida Hutami, S.Pd.",
+    "start_date": "2025-10-24T08:15:04+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T07:20:18.192Z"
+  },
+  {
+    "id": "1761268969690",
+    "number": "6287828158057",
+    "name": "Rizal Suyaman S.Kom.",
+    "start_date": "2025-10-24T08:22:50+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Tangga Teleskopik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh Deden",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T03:06:28.595Z"
+  },
+  {
+    "id": "1761275986159",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-24T10:19:46+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T06:56:34.198Z"
+  },
+  {
+    "id": "1761276529752",
+    "number": "6281392030221",
+    "name": "Annia Devalusiani Nurul Jaeni, M.Pd.",
+    "start_date": "2025-10-24T10:28:50+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswa",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T07:57:06.546Z"
+  },
+  {
+    "id": "1761284668211",
+    "number": "6288289406929",
+    "name": "Keresna Bayu Wijaya Kusuma, S.Pd.",
+    "start_date": "2025-10-24T12:44:28+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T07:06:59.193Z"
+  },
+  {
+    "id": "1761284790113",
+    "number": "6282128355873",
+    "name": "Septi Mayang Saputri, S.Pd.",
+    "start_date": "2025-10-24T12:46:30+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh nauval 11 rpl 1",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T06:56:47.423Z"
+  },
+  {
+    "id": "1761285256656",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-24T12:54:17+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rafi 11 tsm 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T06:38:57.924Z"
+  },
+  {
+    "id": "1761285308289",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-24T12:55:08+07:00",
+    "due_date": "2025-10-24T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh rafi 11 tsm 3",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-24T06:38:38.670Z"
+  },
+  {
+    "id": "1761611008473",
+    "number": "6285888803307",
+    "name": "Irwan Saputra, S.Pd.",
+    "start_date": "2025-10-28T07:23:28+07:00",
+    "due_date": "2025-10-28T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-28T08:10:43.559Z"
+  },
+  {
+    "id": "1761611026226",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-28T07:23:46+07:00",
+    "due_date": "2025-10-28T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-28T08:10:47.477Z"
+  },
+  {
+    "id": "1761612706073",
+    "number": "6282122127272",
+    "name": "Rizky Hakiki, ST.",
+    "start_date": "2025-10-28T07:51:46+07:00",
+    "due_date": "2025-10-28T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-28T08:03:45.978Z"
+  },
+  {
+    "id": "1761615150100",
+    "number": "6285222728787",
+    "name": "Putri Maulida Hutami, S.Pd.",
+    "start_date": "2025-10-28T08:32:30+07:00",
+    "due_date": "2025-10-28T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Kabel HDMI",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-28T03:05:54.988Z"
+  },
+  {
+    "id": "1761616829020",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-10-28T09:00:28+07:00",
+    "due_date": "2025-10-28T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-28T07:38:26.515Z"
+  },
+  {
+    "id": "1761621982755",
+    "number": "6285317734135",
+    "name": "Ela Nurlela, S.Pd.",
+    "start_date": "2025-10-28T10:26:22+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "HDMI to VGA",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T02:10:55.019Z"
+  },
+  {
+    "id": "1761697061494",
+    "number": "6281111118908",
+    "name": "Arija Fitriyah, S.Pd.",
+    "start_date": "2025-10-29T07:17:41+07:00",
+    "due_date": "2025-10-30T07:15:46+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T09:01:33.696Z"
+  },
+  {
+    "id": "1761697401541",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-10-29T07:23:21+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T01:41:33.625Z"
+  },
+  {
+    "id": "1761697722995",
+    "number": "6282111176699",
+    "name": "Lia Yuliasari, S.Pd.",
+    "start_date": "2025-10-29T07:28:43+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T01:32:40.763Z"
+  },
+  {
+    "id": "1761698780463",
+    "number": "6285215541554",
+    "name": "Iin Solihin, M.Pd.",
+    "start_date": "2025-10-29T07:46:20+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Tangga Teleskopik",
+        "qty": 1
+      }
+    ],
+    "purpose": "acara aula mimake",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T09:01:36.913Z"
+  },
+  {
+    "id": "1761701839947",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-29T08:37:20+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T06:29:22.348Z"
+  },
+  {
+    "id": "1761702693371",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-29T08:51:33+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T08:11:29.483Z"
+  },
+  {
+    "id": "1761718565852",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-10-29T13:16:06+07:00",
+    "due_date": "2025-10-29T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-29T09:01:37.887Z"
+  },
+  {
+    "id": "1761786352283",
+    "number": "6282122127272",
+    "name": "Rizky Hakiki, ST.",
+    "start_date": "2025-10-30T08:05:52+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761787306808",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-30T08:21:47+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761789019550",
+    "number": "6289670351213",
+    "name": "Sapa Oktapiani, S.Pd.",
+    "start_date": "2025-10-30T08:50:20+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-30T05:29:23.060Z"
+  },
+  {
+    "id": "1761789437565",
+    "number": "6285286307950",
+    "name": "Titah Utami, S.Pd.",
+    "start_date": "2025-10-30T08:57:18+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Speaker Bluetooth",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": " ",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761802109668",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-10-30T12:28:30+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761802785851",
+    "number": "6281111118908",
+    "name": "Arija Fitriyah, S.Pd.",
+    "start_date": "2025-10-30T12:39:46+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM & Ekstrakulikuler",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761803170200",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-30T12:46:10+07:00",
+    "due_date": "2025-10-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761882960551",
+    "number": "6288706320887",
+    "name": "Ahmad Hakim Makarim",
+    "start_date": "2025-10-31T11:00:41+07:00",
+    "due_date": "2025-10-31T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-31T03:59:14.368Z"
+  },
+  {
+    "id": "1761883091447",
+    "number": "6287760928460",
+    "name": "Ai Sa'adatuddaroin, S.Pd.",
+    "start_date": "2025-10-31T11:02:52+07:00",
+    "due_date": "2025-11-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo V310",
+        "qty": 1
+      }
+    ],
+    "purpose": "Administrasi",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761883144315",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-10-31T11:03:45+07:00",
+    "due_date": "2025-11-30T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Tablet ADVAN 8001",
+        "qty": 1
+      }
+    ],
+    "purpose": "Administrasi",
+    "notes": "tab no (082)",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1761883930607",
+    "number": "6282128355873",
+    "name": "Septi Mayang Saputri, S.Pd.",
+    "start_date": "2025-10-31T11:16:51+07:00",
+    "due_date": "2025-11-03T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Tripod Stand HP",
+        "qty": 1
+      }
+    ],
+    "purpose": "suting",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-31T08:00:50.788Z"
+  },
+  {
+    "id": "1761890719839",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-10-31T13:05:19+07:00",
+    "due_date": "2025-10-31T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-10-31T06:52:30.190Z"
+  },
+  {
+    "id": "1762734072374",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-11-10T07:21:12+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T06:48:58.793Z"
+  },
+  {
+    "id": "1762734154195",
+    "number": "6282121115411",
+    "name": "Siti Hasti, S.Pd.",
+    "start_date": "2025-11-10T07:22:34+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T07:28:41.655Z"
+  },
+  {
+    "id": "1762734837062",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-11-10T07:33:57+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T03:05:16.601Z"
+  },
+  {
+    "id": "1762735872793",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-11-10T07:51:12+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T02:11:50.624Z"
+  },
+  {
+    "id": "1762738655908",
+    "number": "6281392030221",
+    "name": "Annia Devalusiani Nurul Jaeni, M.Pd.",
+    "start_date": "2025-11-10T08:37:36+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T08:11:38.866Z"
+  },
+  {
+    "id": "1762739706124",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-11-10T08:55:06+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T03:06:43.518Z"
+  },
+  {
+    "id": "1762744639636",
+    "number": "6285220418388",
+    "name": "Tina Mulayyinatun Nisa, S.Pd.",
+    "start_date": "2025-11-10T10:17:19+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T08:16:08.392Z"
+  },
+  {
+    "id": "1762746451880",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-11-10T10:47:31+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T07:54:24.750Z"
+  },
+  {
+    "id": "1762752062653",
+    "number": "6287864446844",
+    "name": "Elin Neli Novianti, S.Pd.",
+    "start_date": "2025-11-10T12:21:02+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T07:23:08.718Z"
+  },
+  {
+    "id": "1762757671007",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-11-10T13:54:30+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T07:49:21.995Z"
+  },
+  {
+    "id": "1762758121012",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-11-10T14:02:00+07:00",
+    "due_date": "2025-11-10T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T08:13:08.997Z"
+  },
+  {
+    "id": "1762758349285",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-11-10T14:05:49+07:00",
+    "due_date": "2025-11-11T14:02:03+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-10T08:00:38.569Z"
+  },
+  {
+    "id": "1762764432804",
+    "number": "6282128123985",
+    "name": "Yayang Willy Rukmana S.Ds.",
+    "start_date": "2025-11-10T15:47:12+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo Ideapad 320 Core i3",
+        "qty": 1
+      }
+    ],
+    "purpose": "pribadi ",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1762765988307",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-11-10T16:13:08+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "acara",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1762820848247",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-11-11T07:27:27+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "diambil oleh robin kls 10 tm 2,di pinjem selama 3 jam pelajaran ",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T01:37:45.566Z"
+  },
+  {
+    "id": "1762821265367",
+    "number": "6285222728787",
+    "name": "Putri Maulida Hutami, S.Pd.",
+    "start_date": "2025-11-11T07:34:24+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Kabel HDMI",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T03:01:14.933Z"
+  },
+  {
+    "id": "1762821434081",
+    "number": "6281221540714",
+    "name": "Iis Ismawati, S.Pd.",
+    "start_date": "2025-11-11T07:37:13+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm1453456180",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T08:12:18.375Z"
+  },
+  {
+    "id": "1762821969665",
+    "number": "6282315773461",
+    "name": "Kartiwi, S.Pd.I.",
+    "start_date": "2025-11-11T07:46:09+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T01:37:37.435Z"
+  },
+  {
+    "id": "1762823983916",
+    "number": "6288229166848",
+    "name": "Hibar Rahayu, S.Pd.",
+    "start_date": "2025-11-11T08:19:43+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh siswi mp",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T05:11:45.652Z"
+  },
+  {
+    "id": "1762825860325",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-11-11T08:50:59+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Switch tp-link",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T08:08:18.837Z"
+  },
+  {
+    "id": "1762839531168",
+    "number": "6281392030221",
+    "name": "Annia Devalusiani Nurul Jaeni, M.Pd.",
+    "start_date": "2025-11-11T12:38:50+07:00",
+    "due_date": "2025-11-12T12:37:41+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T07:05:21.477Z"
+  },
+  {
+    "id": "1762840027555",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-11-11T12:47:06+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T07:36:41.061Z"
+  },
+  {
+    "id": "1762840279163",
+    "number": "6282122127272",
+    "name": "Rizky Hakiki, ST.",
+    "start_date": "2025-11-11T12:51:18+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T08:00:16.362Z"
+  },
+  {
+    "id": "1762842277010",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-11-11T13:24:36+07:00",
+    "due_date": "2025-11-11T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-11T08:08:23.815Z"
+  },
+  {
+    "id": "1762847896145",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-11-11T14:58:15+07:00",
+    "due_date": "2025-11-12T14:57:10+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1762906285640",
+    "number": "6281392030221",
+    "name": "Annia Devalusiani Nurul Jaeni, M.Pd.",
+    "start_date": "2025-11-12T07:11:25+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T07:49:52.011Z"
+  },
+  {
+    "id": "1762906438676",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-11-12T07:13:58+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T07:01:30.560Z"
+  },
+  {
+    "id": "1762907324358",
+    "number": "6281312975520",
+    "name": "Regina Srinita Chatulistiwa Putri, S.Pd.",
+    "start_date": "2025-11-12T07:28:43+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T02:27:13.210Z"
+  },
+  {
+    "id": "1762907465405",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-11-12T07:31:04+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 10
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T04:32:37.831Z"
+  },
+  {
+    "id": "1762907632900",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-11-12T07:33:52+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T04:32:32.218Z"
+  },
+  {
+    "id": "1762908387796",
+    "number": "6281312975520",
+    "name": "Regina Srinita Chatulistiwa Putri, S.Pd.",
+    "start_date": "2025-11-12T07:46:27+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T02:27:17.906Z"
+  },
+  {
+    "id": "1762911353539",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-11-12T08:35:54+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T07:49:32.484Z"
+  },
+  {
+    "id": "1762916652832",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-11-12T10:04:13+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T04:32:04.438Z"
+  },
+  {
+    "id": "1762922031219",
+    "number": "6285220543843",
+    "name": "Hari Suprayoga, S.T",
+    "start_date": "2025-11-12T11:33:51+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T07:41:58.849Z"
+  },
+  {
+    "id": "1762928247534",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-11-12T13:17:27+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "diambil oleh misbah",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T08:22:22.696Z"
+  },
+  {
+    "id": "1762928325654",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-11-12T13:18:46+07:00",
+    "due_date": "2025-11-12T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-12T08:15:32.456Z"
+  },
+  {
+    "id": "1762992639521",
+    "number": "6287864446844",
+    "name": "Elin Neli Novianti, S.Pd.",
+    "start_date": "2025-11-13T07:10:40+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T07:50:38.639Z"
+  },
+  {
+    "id": "1762993017409",
+    "number": "6281392030221",
+    "name": "Annia Devalusiani Nurul Jaeni, M.Pd.",
+    "start_date": "2025-11-13T07:16:58+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T07:01:43.841Z"
+  },
+  {
+    "id": "1762994768496",
+    "number": "6282316665901",
+    "name": "Lisna Herliani, S.Pd.I.",
+    "start_date": "2025-11-13T07:46:09+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": " ",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T08:04:48.174Z"
+  },
+  {
+    "id": "1762995795265",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-11-13T08:03:16+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T07:35:53.819Z"
+  },
+  {
+    "id": "1762998056987",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-11-13T08:40:58+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T08:11:26.917Z"
+  },
+  {
+    "id": "1763012015426",
+    "number": "6282218772747",
+    "name": "Dini Nurmaladewi, S.AN.",
+    "start_date": "2025-11-13T12:33:36+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T06:59:30.640Z"
+  },
+  {
+    "id": "1763012964412",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-11-13T12:49:25+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T07:35:04.960Z"
+  },
+  {
+    "id": "1763014368959",
+    "number": "6289643444066",
+    "name": "Cahya Nurhaeni, S.Pd.",
+    "start_date": "2025-11-13T13:12:49+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-13T06:46:20.184Z"
+  },
+  {
+    "id": "1763017584879",
+    "number": "6283811395877",
+    "name": "Dina Maryati, S.Pd.",
+    "start_date": "2025-11-13T14:06:25+07:00",
+    "due_date": "2025-11-13T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763088103273",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-11-14T09:41:43+07:00",
+    "due_date": "2025-11-14T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      },
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-14T05:32:59.238Z"
+  },
+  {
+    "id": "1763088151418",
+    "number": "6282122127272",
+    "name": "Rizky Hakiki, ST.",
+    "start_date": "2025-11-14T09:42:31+07:00",
+    "due_date": "2025-11-14T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763088307608",
+    "number": "6281224481643",
+    "name": "Nani Suryani, S.Pd.",
+    "start_date": "2025-11-14T09:45:07+07:00",
+    "due_date": "2025-11-14T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763089930800",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-11-14T10:12:10+07:00",
+    "due_date": "2025-11-14T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-14T05:32:48.425Z"
+  },
+  {
+    "id": "1763341145494",
+    "number": "6281320099492",
+    "name": "Aang Awaludin, S.Pd.I.",
+    "start_date": "2025-11-17T07:59:05+07:00",
+    "due_date": "2025-11-18T07:57:18+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      },
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763341725112",
+    "number": "6282321618362",
+    "name": "Asep Dani Noviandi, S.An.",
+    "start_date": "2025-11-17T08:08:45+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Lenovo G40-45",
+        "qty": 7
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 2
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763341953033",
+    "number": "6285320282303",
+    "name": "Sri Andani, S.Pd.",
+    "start_date": "2025-11-17T08:12:33+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-17T01:34:39.969Z"
+  },
+  {
+    "id": "1763341970074",
+    "number": "6285888803307",
+    "name": "Irwan Saputra, S.Pd.",
+    "start_date": "2025-11-17T08:12:50+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763342004830",
+    "number": "6281313375882",
+    "name": "Asep Romdon, ST.",
+    "start_date": "2025-11-17T08:13:24+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763342356423",
+    "number": "6282315761786",
+    "name": "Mas Achmad Yusuf Wibisono, ST",
+    "start_date": "2025-11-17T08:19:16+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763342443324",
+    "number": "6285215541554",
+    "name": "Iin Solihin, M.Pd.",
+    "start_date": "2025-11-17T08:20:43+07:00",
+    "due_date": "2025-12-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Logitech MK220",
+        "qty": 1
+      }
+    ],
+    "purpose": "Pribadi",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763342917910",
+    "number": "6282321318282",
+    "name": "Dede Iskandar, S.T.",
+    "start_date": "2025-11-17T08:28:38+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763342984518",
+    "number": "6282122127272",
+    "name": "Rizky Hakiki, ST.",
+    "start_date": "2025-11-17T08:29:44+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763345557284",
+    "number": "6285351320051",
+    "name": "Aca Supriatna, S.Pd.",
+    "start_date": "2025-11-17T09:12:37+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "kbm",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763349045926",
+    "number": "6285220418388",
+    "name": "Tina Mulayyinatun Nisa, S.Pd.",
+    "start_date": "2025-11-17T10:10:45+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dikembalikan",
+    "returned_at": "2025-11-17T04:33:11.017Z"
+  },
+  {
+    "id": "1763350623905",
+    "number": "6285221817236",
+    "name": "Yani Yulyanti, ST.",
+    "start_date": "2025-11-17T10:37:03+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
+    "status": "dipinjam",
+    "returned_at": null
+  },
+  {
+    "id": "1763351215358",
+    "number": "6287864446844",
+    "name": "Elin Neli Novianti, S.Pd.",
+    "start_date": "2025-11-17T10:46:55+07:00",
+    "due_date": "2025-11-17T16:00:00+07:00",
+    "items": [
+      {
+        "item_name": "Proyektor",
+        "qty": 1
+      },
+      {
+        "item_name": "Terminal Listrik",
+        "qty": 1
+      }
+    ],
+    "purpose": "KBM",
+    "notes": "",
     "status": "dipinjam",
     "returned_at": null
   }

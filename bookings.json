@@ -1,0 +1,56 @@
+[
+  {
+    "id": "BOOK-1759920922704-249",
+    "user": "6288218366466@s.whatsapp.net",
+    "name": "Abdi",
+    "itemId": "1754696680732",
+    "itemName": "Proyektor",
+    "quantity": 5,
+    "date": "besok",
+    "duration": null,
+    "purpose": null,
+    "createdAt": "2025-10-08T10:55:22.704Z"
+  },
+  {
+    "id": "BOOK-1759923713155-854",
+    "user": "6288218366466@s.whatsapp.net",
+    "name": "Abdi Putrana Radian",
+    "itemId": "1754696680732",
+    "itemName": "Proyektor",
+    "quantity": 3,
+    "date": "2025-10-09",
+    "duration": null,
+    "purpose": null,
+    "createdAt": "2025-10-08T11:41:53.155Z"
+  },
+  {
+    "id": "BOOK-1759923994513-811",
+    "user": "6288218366466@s.whatsapp.net",
+    "borrowerId": "1758511853577",
+    "items": [
+      {
+        "itemId": "1754696680732",
+        "quantity": 3
+      }
+    ],
+    "date": "2025-10-09",
+    "duration": null,
+    "purpose": "KBM",
+    "createdAt": "2025-10-08T11:46:34.513Z"
+  },
+  {
+    "id": "BOOK-1760340790510-453",
+    "user": "6288218366466@s.whatsapp.net",
+    "borrowerId": "1758511853577",
+    "items": [
+      {
+        "itemId": "1754637098494",
+        "quantity": 5
+      }
+    ],
+    "date": "2025-10-14",
+    "duration": "3 jam",
+    "purpose": "KBM",
+    "createdAt": "2025-10-13T07:33:10.510Z"
+  }
+]

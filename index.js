@@ -113,6 +113,7 @@ const SYSTEM_PROMPT = {
   - Tripod HP
 
   Catatan penting:
+  - Jam operasional MRC adalah mengikuti jadwal sekolah, Senin-Jumat pukul 06.30-16.00 WIB.
   - Peminjaman hanya bisa dilakukan oleh guru atau staf dengan identitas yang jelas (gunakan ID Card jika diwakili oleh siswa).
   - Peminjaman barang harus kembali dengan kondisi baik dan lengkap.
   - Peminjaman laptop maksimal 10 unit.
@@ -124,6 +125,10 @@ const SYSTEM_PROMPT = {
   - Jasa lain yang berkaitan dengan komputer dan jaringan
 
   Kamu hanya menjawab pesan yang berkaitan dengan konteksnya, jangan sebutkan hal lain selain konteks yang disebutkan. Tanyakan dengan sopan keperluan pengguna dan bantu sesuai prosedur yang berlaku.
+
+  Jika ada yang menanyakan tentang tata cara menggunakan barang yang dipinjam, jelaskan secara singkat cara menggunakannya sesuai fungsi utamanya.
+
+  Jangan pernah menawarkan layanan atau barang yang tidak ada di MRC.
   
   Jika ada pesan di luar dari itu, tetap balas dengan sopan dan bantu sesuai kemampuan. Jangan pernah memberikan informasi yang salah atau menyesatkan. Kalau tidak yakin, arahkan ke admin MRC.
 
@@ -211,12 +216,38 @@ async function startBot() {
   sock.ev.on("creds.update", saveCreds);
 
   sock.ev.on("messages.upsert", async (m) => {
+    // ====== KONFIGURASI LOKASI DAN ADMIN ======
+    const MRC_LOCATION = {
+      latitude: -6.5556091,
+      longitude: 107.7593109,
+      name: "MRC SMKN 1 Subang",
+      address: "SMKN 1 Subang, Jl. Arief Rahman Hakim No.35, Subang, Jawa Barat"
+    };
+    // Kontak admin (bisa lebih dari satu)
+    const ADMIN_CONTACTS = [
+      {
+        displayName: "Pak Hakim (MRC)",
+        vcard: [
+          "BEGIN:VCARD",
+          "VERSION:3.0",
+          "FN:Pak Hakim (MRC)",
+          "TEL;type=CELL;waid=6288706320887:+62 887-0632-0887",
+          "END:VCARD"
+        ].join("\n")
+      }
+    ];
 
     try {
       const adminNumbers = ["6288706320887@s.whatsapp.net", "6288218366466@s.whatsapp.net"];
       const msg = m.messages[0];
       if (!msg || !msg.message || msg.key.fromMe) return;
 
+      // DEBUG: log isi pesan WhatsApp mentah untuk analisis katalog/cart
+      try {
+        console.log('DEBUG RAW MESSAGE:', JSON.stringify(msg.message, null, 2));
+      } catch (e) {
+        console.log('DEBUG RAW MESSAGE (stringify error):', msg.message);
+      }
       const from = msg.key.remoteJid;
       const text =
         msg.message.conversation ||
@@ -232,8 +263,13 @@ async function startBot() {
         text.trim().toLowerCase() !== "hapus history" &&
         text.trim().toLowerCase() !== "/ping" &&
         text.trim().toLowerCase() !== "/help" &&
+        text.trim().toLowerCase() !== "/faq" &&
         text.trim().toLowerCase() !== "/stats" &&
         text.trim().toLowerCase() !== "/bc" &&
+        text.trim().toLowerCase() !== "/stok" &&
+        text.trim().toLowerCase() !== "/lokasi" &&
+        text.trim().toLowerCase() !== "/admin" &&
+        !text.trim().toLowerCase().startsWith("/cek") &&
         !(global.broadcastState && global.broadcastState[from]?.waiting)
       ) {
         return;
@@ -246,6 +282,25 @@ async function startBot() {
       );
 
       ensureUserHistoryKey(from);
+      let isFirstChat = false;
+      if (
+        Array.isArray(conversationHistory[from]) &&
+        conversationHistory[from].length === 1 &&
+        conversationHistory[from][0].role === "system"
+      ) {
+        isFirstChat = true;
+      }
+
+      if (isFirstChat) {
+        let namaUser = msg.pushName || "";
+        let sapaan = namaUser ? `Hai, *${namaUser}*! 👋\n` : "Hai! 👋\n";
+        let perkenalan = `${sapaan}Selamat datang di *MRC SMKN 1 Subang*\n\nAku asisten digital untuk peminjaman barang, layanan komputer/jaringan, dan info seputar MRC.\n\nKetik \`/help\` untuk melihat daftar perintah dan layanan yang tersedia.`;
+        await sock.sendMessage(from, {
+          text: perkenalan
+        });
+        conversationHistory[from].push({ role: "assistant", content: perkenalan });
+        saveHistory(conversationHistory);
+      }
 
       try {
         await sock.presenceSubscribe(from);
@@ -294,17 +349,255 @@ async function startBot() {
         return;
       }
 
+      if (text.trim().toLowerCase() === "/lokasi") {
+        await sock.sendMessage(from, {
+          location: {
+            degreesLatitude: MRC_LOCATION.latitude,
+            degreesLongitude: MRC_LOCATION.longitude,
+            name: MRC_LOCATION.name,
+            address: MRC_LOCATION.address
+          }
+        });
+        return;
+      }
+
+      if (text.trim().toLowerCase() === "/admin") {
+        await sock.sendMessage(from, {
+          contacts: {
+            displayName: "Admin MRC",
+            contacts: ADMIN_CONTACTS.map(c => ({ displayName: c.displayName, vcard: c.vcard }))
+          }
+        });
+        return;
+      }
+
+      if (text.trim().toLowerCase().startsWith("/cek")) {
+        // Jika hanya '/cek' tanpa nama
+        if (text.trim().toLowerCase() === "/cek") {
+          await sock.sendMessage(from, { text: "Format salah. Ketik: `/cek {nama guru}`\nContoh: `/cek Ahmad Hakim Makarim`" });
+          return;
+        }
+        // Jika '/cek {nama}'
+        if (text.trim().toLowerCase().startsWith("/cek ")) {
+          try {
+            const query = text.trim().slice(5).toLowerCase();
+            const borrowersPath = "C:/mrc/mrc/database/borrowers.json";
+            const loansPath = "C:/mrc/mrc/database/loans.json";
+            const itemsPath = "C:/mrc/mrc/database/items.json";
+            if (!fs.existsSync(borrowersPath) || !fs.existsSync(loansPath) || !fs.existsSync(itemsPath)) {
+              await sock.sendMessage(from, { text: "❌ Data peminjam/loans/items tidak ditemukan." });
+              return;
+            }
+            const borrowers = JSON.parse(fs.readFileSync(borrowersPath, "utf8"));
+            const loans = JSON.parse(fs.readFileSync(loansPath, "utf8"));
+            const items = JSON.parse(fs.readFileSync(itemsPath, "utf8"));
+            // Cari peminjam paling relevan (paling atas yang namanya mengandung query, case-insensitive, urutkan by kemiripan string)
+            const scored = borrowers.map(b => ({
+              ...b,
+              score: b.name.toLowerCase().includes(query) ? 100 - Math.abs(b.name.length - query.length) : 0
+            })).filter(b => b.score > 0).sort((a, b) => b.score - a.score);
+            if (!scored.length) {
+              await sock.sendMessage(from, { text: `❌ Tidak ditemukan peminjam dengan nama "${query}".` });
+              return;
+            }
+            const borrower = scored[0];
+            // Ambil semua loans milik borrower ini, urutkan terbaru dulu
+            const borrowerLoans = loans.filter(l => l.borrowerId === borrower.id).sort((a, b) => new Date(b.borrowDate) - new Date(a.borrowDate));
+            if (!borrowerLoans.length) {
+              await sock.sendMessage(from, { text: `Tidak ada riwayat peminjaman untuk *${borrower.name}*.` });
+              return;
+            }
+            // Format detail
+            let nipLine = "";
+            if (borrower.nip) {
+              nipLine = `NIP: ${borrower.nip}\n`;
+            } else if (borrower.officerId) {
+              nipLine = `ID Pegawai: ${borrower.officerId}\n`;
+            }
+            let msg = `📋 *Riwayat Peminjaman*\nNama: *${borrower.name}*\n${nipLine}Total peminjaman: *${borrowerLoans.length}*\n\n`;
+            for (const loan of borrowerLoans.slice(0, 3)) { // tampilkan max 3 terakhir
+              const tglPinjam = new Date(loan.borrowDate).toLocaleString("id-ID", {
+                timeZone: "Asia/Jakarta",
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit",
+                hour: "2-digit",
+                minute: "2-digit"
+              });
+              const tglJatuhTempo = new Date(loan.dueDate).toLocaleDateString("id-ID", {
+                timeZone: "Asia/Jakarta",
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+              });
+              const tglKembali = loan.returnDate
+                ? new Date(loan.returnDate).toLocaleString("id-ID", {
+                  timeZone: "Asia/Jakarta",
+                  year: "numeric",
+                  month: "2-digit",
+                  day: "2-digit",
+                  hour: "2-digit",
+                  minute: "2-digit"
+                })
+                : "-";
+              msg += `🆔 ID: *${loan.id}*\n`;
+              msg += `- Tgl Pinjam: *${tglPinjam}*\n`;
+              msg += `- Jatuh Tempo: *${tglJatuhTempo}*\n`;
+              if (loan.status === "dikembalikan") {
+                msg += `- Status: *${loan.status}* ✅\n`;
+              } else if (loan.status === "dipinjam") {
+                msg += `- Status: *${loan.status}* ⚠️\n`;
+              } else {
+                msg += `- Status: *${loan.status}*\n`;
+              }
+              msg += `- Keperluan: *${loan.purpose || "-"}*\n`;
+              if (loan.notes) msg += `- Catatan: ${loan.notes}\n`;
+              msg += `- 📦 Barang:\n`;
+              // Group serialNumbers by item name
+              const serialToName = {};
+              // items.json sometimes uses different keys for serials (sn, serialNumber, rfidCode, etc.)
+              for (const item of items) {
+                if (Array.isArray(item.items)) {
+                  for (const sub of item.items) {
+                    const candidates = [
+                      sub.serialNumber,
+                      sub.sn,
+                      sub.rfidCode,
+                      sub.serial,
+                      sub.serial_no,
+                      sub.s_n
+                    ];
+                    for (const c of candidates) {
+                      if (c !== undefined && c !== null && c.toString().trim() !== "") {
+                        serialToName[c.toString()] = item.name;
+                      }
+                    }
+                  }
+                }
+              }
+              // Group loaned serialNumbers by name
+              const nameGroups = {};
+              loan.items.forEach(it => {
+                const candidates = [
+                  it.serialNumber,
+                  it.sn,
+                  it.rfidCode,
+                  it.serial,
+                  it.serial_no,
+                  it.s_n
+                ];
+                let serialVal = '';
+                for (const c of candidates) {
+                  if (c !== undefined && c !== null && c.toString().trim() !== "") {
+                    serialVal = c.toString();
+                    break;
+                  }
+                }
+                const name = serialVal && serialToName[serialVal] ? serialToName[serialVal] : '(Tidak diketahui)';
+                if (!nameGroups[name]) nameGroups[name] = [];
+                nameGroups[name].push(serialVal);
+              });
+              let idx = 1;
+              for (const [name, serials] of Object.entries(nameGroups)) {
+                msg += `${idx++}. ${name} (${serials.length}x)\n`;
+              }
+              if (loan.status === "dikembalikan") msg += `- Tgl Kembali: *${tglKembali}*\n`;
+              msg += `\n`;
+            }
+            if (borrowerLoans.length > 3) msg += `Dan ${borrowerLoans.length - 3} peminjaman lainnya...`;
+            await sock.sendMessage(from, { text: msg });
+          } catch (e) {
+            await sock.sendMessage(from, { text: `❌ Gagal cek riwayat: ${e.message || e}` });
+          }
+          return;
+        }
+      }
+
+      if (text.trim().toLowerCase() === "/stok") {
+        try {
+          const itemsPath = "C:/mrc/mrc/database/items.json";
+          if (!fs.existsSync(itemsPath)) {
+            await sock.sendMessage(from, { text: "❌ Data stok barang tidak ditemukan." });
+            return;
+          }
+          const itemsRaw = fs.readFileSync(itemsPath, "utf8");
+          const items = JSON.parse(itemsRaw);
+          if (!Array.isArray(items) || items.length === 0) {
+            await sock.sendMessage(from, { text: "❌ Tidak ada data stok barang." });
+            return;
+          }
+          let stokMsg = `📦 *Daftar Stok Barang MRC*\n\n`;
+          for (const item of items) {
+            let available = 0;
+            if (Array.isArray(item.items)) {
+              available = item.items.filter(sub => sub.status === 1).length;
+            }
+            stokMsg += `- ${item.name}  (*${available}x*)\n`;
+          }
+          await sock.sendMessage(from, { text: stokMsg });
+        } catch (e) {
+          await sock.sendMessage(from, { text: `❌ Gagal mengambil data stok: ${e.message || e}` });
+        }
+        return;
+      }
+
       if (text.trim().toLowerCase() === "/help") {
         let helpMsg = `🤖 *Command Bot MRC*\n\n`;
         helpMsg += `Ketik pesan apa saja untuk memulai percakapan dengan bot.\n\n`;
         helpMsg += `*Perintah yang tersedia:*\n`;
-        helpMsg += `- \`/msg <nomor> <pesan>\` - Mengirim pesan ke nomor tertentu.\n`;
-        helpMsg += `- \`/reset\` - Menghapus riwayat percakapan.\n`;
-        helpMsg += `- \`/ping\` - Mengecek koneksi.\n`;
-        helpMsg += `- \`/help\` - Menampilkan bantuan ini.\n`;
-        helpMsg += `- \`/stats\` - Menampilkan statistik bot.\n`;
-        helpMsg += `- \`/bc\` - Mengirim pesan broadcast ke semua pengguna.`;
+        helpMsg += `- \`/ping\` - Mengecek koneksi\n`;
+        helpMsg += `- \`/help\` - Menampilkan bantuan ini\n`;
+        helpMsg += `- \`/faq\` - Menampilkan daftar pertanyaan umum (FAQ)\n`;
+        helpMsg += `- \`/stats\` - Menampilkan statistik bot\n`;
+        helpMsg += `- \`/stok\` - Menampilkan daftar stok barang di MRC\n`;
+        helpMsg += `- \`/cek {nama}\` - Cek riwayat peminjaman berdasarkan nama peminjam\n`;
+        helpMsg += `- \`/lokasi\` - Share lokasi ruang MRC\n`;
+        helpMsg += `- \`/admin\` - Contact person MRC\n`;
         await sock.sendMessage(from, { text: helpMsg });
+        return;
+      }
+
+      if (text.trim().toLowerCase() === "/faq") {
+        const faqList = [
+          {
+            q: "Layanan apa saja yang tersedia di MRC?",
+            a: "Peminjaman barang, perbaikan komputer/laptop, instalasi software, perbaikan jaringan."
+          },
+          {
+            q: "Jam operasional?",
+            a: "Senin-Jumat, 06:30 - 16:00 WIB."
+          },
+          {
+            q: "Bagaimana cara meminjam?",
+            a: "Datang ke MRC oleh guru, tanda tangan form peminjaman, dan bawa barang yang dipinjam."
+          },
+          {
+            q: "Siapa yang boleh meminjam?",
+            a: "Guru atau staf sekolah dengan identitas yang jelas."
+          },
+          {
+            q: "Batas peminjaman?",
+            a: "Maksimum 7 unit per peminjaman."
+          },
+          {
+            q: "Apa syarat pengembalian?",
+            a: "Dikembalikan dalam kondisi baik dan lengkap (semua aksesoris)."
+          },
+          {
+            q: "Dimana lokasi MRC?",
+            a: "Ketik `/lokasi` untuk mendapatkan lokasi MRC di WhatsApp."
+          },
+          {
+            q: "Kontak admin?",
+            a: "Ketik `/admin` untuk mendapatkan kontak admin MRC."
+          }
+        ];
+
+        let payload = "*📚 FAQ - MRC SMKN 1 Subang*";
+        faqList.forEach((item, i) => {
+          payload += `\n\n${i + 1}. *${item.q}*\n${item.a}`;
+        });
+        await sock.sendMessage(from, { text: payload });
         return;
       }
 
@@ -371,10 +664,9 @@ async function startBot() {
         return;
       }
 
-      // Hanya balas dengan AI jika settings.ai_active === true
+      // Hanya balas AI secara normal
       if (settings.ai_active) {
         conversationHistory[from].push({ role: "user", content: text });
-
         const historySansSystem = conversationHistory[from].slice(1);
         const messagesToSend = [
           SYSTEM_PROMPT,
@@ -382,17 +674,12 @@ async function startBot() {
         ];
 
         const aiReply = await getAIResponse(messagesToSend);
-
         conversationHistory[from].push({ role: "assistant", content: aiReply });
-
         const system = conversationHistory[from][0];
         const rest = conversationHistory[from].slice(1).slice(-MAX_HISTORY_ITEMS);
         conversationHistory[from] = [system, ...rest];
-
         saveHistory(conversationHistory);
-
         await sock.sendMessage(from, { text: aiReply });
-
         try {
           await sock.sendPresenceUpdate("available", from);
         } catch (e) {
@@ -700,6 +987,79 @@ app.post("/ai", (req, res) => {
   } catch (err) {
     console.error("Error /ai:", err);
     res.status(500).json({ error: "Gagal update AI status" });
+  }
+});
+
+// Endpoint untuk booking barang
+app.post("/book", async (req, res) => {
+  try {
+    const { number, name, start_date, due_date, items, id, purpose, notes } = req.body;
+
+    if (!number || !name || !start_date || !due_date || !Array.isArray(items) || !purpose) {
+      return res.status(400).json({ error: "Data tidak lengkap" });
+    }
+
+    function formatStart(tgl) {
+      try {
+        const d = new Date(tgl);
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, "0");
+        const dd = String(d.getDate()).padStart(2, "0");
+        const hh = String(d.getHours()).padStart(2, "0");
+        const min = String(d.getMinutes()).padStart(2, "0");
+        return `${yyyy}-${mm}-${dd} pukul ${hh}:${min}`;
+      } catch {
+        return tgl;
+      }
+    }
+
+    function formatDue(tgl) {
+      try {
+        const d = new Date(tgl);
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth() + 1).padStart(2, "0");
+        const dd = String(d.getDate()).padStart(2, "0");
+        return `${yyyy}-${mm}-${dd}`;
+      } catch {
+        return tgl;
+      }
+    }
+
+    const bookingId = id || `BOOK-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+    const bookingsPath = path.join(__dirname, "bookings.json");
+    let bookings = [];
+    if (fs.existsSync(bookingsPath)) {
+      try { bookings = JSON.parse(fs.readFileSync(bookingsPath, "utf8")); } catch { }
+    }
+
+    const bookingRecord = {
+      id: bookingId,
+      number,
+      name,
+      start_date,
+      due_date,
+      items,
+      purpose,
+      notes: notes || "",
+      status: 0, // 0 = booking, 1 = aktif (peminjaman)
+      created_at: new Date().toISOString()
+    };
+    bookings.push(bookingRecord);
+    try {
+      fs.writeFileSync(bookingsPath, JSON.stringify(bookings, null, 2));
+    } catch (e) {
+      return res.status(500).json({ error: "Gagal menyimpan booking" });
+    }
+
+    res.json({ status: "Booking berhasil disimpan", id: bookingId });
+    console.log(
+      `[${new Date().toLocaleString("en-US", {
+        timeZone: "Asia/Jakarta",
+      })}] ✅ Booking baru dicatat dengan ID ${bookingId}`
+    );
+  } catch (err) {
+    console.error("Error /book:", err);
+    res.status(500).json({ error: "Gagal memproses booking" });
   }
 });
 
