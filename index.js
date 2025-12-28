@@ -67,6 +67,14 @@ function checkGhostscript() {
     });
   });
 }
+function formatBytes(bytes) {
+  if (bytes === 0) return "0 B";
+  const k = 1024;
+  const sizes = ["B", "KB", "MB", "GB"];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return `${(bytes / Math.pow(k, i)).toFixed(2)} ${sizes[i]}`;
+}
+
 
 // ===== load / save pinjaman =====
 function loadPinjaman() {
@@ -446,7 +454,12 @@ async function startBot() {
         const inputPath = path.join(tmpDir, originalName);
         const outputPath = path.join(tmpDir, compressedName);
 
-        await sock.sendMessage(from, { text: "Mengompress PDF..." });
+        const progressMsg = await sock.sendMessage(
+          from,
+          { text: "⏳ Mengompres PDF..." },
+          { quoted: msg } // reply ke pesan PDF
+        );
+
 
         let buffer;
         try {
@@ -471,6 +484,16 @@ async function startBot() {
 
         try {
           await compressPDF(inputPath, outputPath);
+          const beforeSize = fs.statSync(inputPath).size;
+          const afterSize = fs.statSync(outputPath).size;
+          const savedPercent = (((beforeSize - afterSize) / beforeSize) * 100).toFixed(1);
+          await sock.sendMessage(from, {
+            text:
+              "✅ *Kompresi PDF Selesai*\n\n" +
+              `📄 ${formatBytes(beforeSize)} → ${formatBytes(afterSize)}\n` +
+              `📉 Hemat *${savedPercent}%*`,
+            edit: progressMsg.key
+          });
 
           await sock.sendMessage(from, {
             document: fs.readFileSync(outputPath),
