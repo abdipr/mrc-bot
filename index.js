@@ -6,11 +6,15 @@ const {
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
+  downloadMediaMessage
 } = require("@whiskeysockets/baileys");
 const qrcode = require("qrcode-terminal");
 const axios = require("axios");
 const express = require("express");
 const bodyParser = require("body-parser");
+const { execFile } = require("child_process");
+const GS_CMD = path.join('C:\\Program Files\\gs\\gs10.06.0\\bin\\gswin64c.exe'); // sesuaikan dengan lokasi Ghostscript di sistem Anda
+
 const app = express();
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "*");
@@ -31,7 +35,39 @@ const HISTORY_FILE = path.join(__dirname, "history.json");
 const PINJAMAN_FILE = path.join(__dirname, "pinjaman.json");
 const SETTINGS_FILE = path.join(__dirname, "settings.json");
 const MAX_HISTORY_ITEMS = 10;
-const MODEL = "openai/gpt-4o-mini";
+const MODEL = "xiaomi/mimo-v2-flash:free";
+function compressPDF(inputPath, outputPath) {
+  return new Promise((resolve, reject) => {
+    const args = [
+      "-sDEVICE=pdfwrite",
+      "-dCompatibilityLevel=1.4",
+      "-dPDFSETTINGS=/ebook", // bisa ganti: /screen /ebook /printer
+      "-dNOPAUSE",
+      "-dQUIET",
+      "-dBATCH",
+      `-sOutputFile=${outputPath}`,
+      inputPath
+    ];
+
+    execFile(GS_CMD, args, (error) => {
+      if (error) {
+        reject(error);
+      } else {
+        resolve();
+      }
+    });
+  });
+}
+function checkGhostscript() {
+  return new Promise((resolve, reject) => {
+    execFile(GS_CMD, ["--version"], (err, stdout) => {
+      if (err) return reject(err);
+      console.log("Ghostscript version:", stdout.trim());
+      resolve();
+    });
+  });
+}
+
 // ===== load / save pinjaman =====
 function loadPinjaman() {
   try {
@@ -151,6 +187,65 @@ function ensureUserHistoryKey(key) {
   }
 }
 
+function getMessageForDownload(msg) {
+  if (msg.message?.documentMessage) return msg;
+
+  if (msg.message?.documentWithCaptionMessage) {
+    return {
+      key: msg.key,
+      message: msg.message.documentWithCaptionMessage.message
+    };
+  }
+
+  return msg;
+}
+
+
+function extractPdfMessage(msg) {
+  // PDF dikirim langsung
+  if (msg.message?.documentMessage?.mimetype === "application/pdf") {
+    return msg;
+  }
+
+  // PDF dari reply / forwarded
+  const quoted =
+    msg.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+
+  if (quoted?.documentMessage?.mimetype === "application/pdf") {
+    // ❗ PENTING: tetap pakai msg ASLI, bukan quoted
+    return msg;
+  }
+
+  return null;
+}
+
+function getAnyDocumentMessage(msg) {
+  // normal document
+  if (msg.message?.documentMessage) {
+    return msg.message.documentMessage;
+  }
+
+  // document with caption (WA baru)
+  if (msg.message?.documentWithCaptionMessage?.message?.documentMessage) {
+    return msg.message.documentWithCaptionMessage.message.documentMessage;
+  }
+
+  // quoted / forwarded
+  const quoted =
+    msg.message?.extendedTextMessage?.contextInfo?.quotedMessage;
+
+  if (quoted?.documentMessage) {
+    return quoted.documentMessage;
+  }
+
+  if (quoted?.documentWithCaptionMessage?.message?.documentMessage) {
+    return quoted.documentWithCaptionMessage.message.documentMessage;
+  }
+
+  return null;
+}
+
+
 // ===== fungsi untuk memanggil OpenRouter / model =====
 async function getAIResponse(messages) {
   try {
@@ -185,6 +280,7 @@ async function getAIResponse(messages) {
 async function startBot() {
   const { state, saveCreds } = await useMultiFileAuthState("auth_info");
   const { version } = await fetchLatestBaileysVersion();
+  await checkGhostscript();
 
   const sock = makeWASocket({
     version,
@@ -255,9 +351,13 @@ async function startBot() {
         msg.message?.imageMessage?.caption ||
         msg.message?.documentMessage?.caption ||
         "";
+      const isMediaMessage = !!getAnyDocumentMessage(msg);
 
-      // Jika AI mati, jangan balas apapun dan jangan update presence
-      if (!settings.ai_active &&
+
+      // Jika AI mati, blok hanya TEXT biasa, tapi IZINKAN media/file
+      if (
+        !settings.ai_active &&
+        !isMediaMessage &&
         !text.trim().toLowerCase().startsWith("/msg ") &&
         text.trim().toLowerCase() !== "/reset" &&
         text.trim().toLowerCase() !== "hapus history" &&
@@ -274,6 +374,7 @@ async function startBot() {
       ) {
         return;
       }
+
 
       console.log(
         `[${new Date().toLocaleString("en-US", {
@@ -330,6 +431,63 @@ async function startBot() {
         }
         return;
       }
+
+      // ===== HANDLE PDF COMPRESSION =====
+      const doc = getAnyDocumentMessage(msg);
+
+      if (doc && doc.mimetype === "application/pdf") {
+        const originalName = doc.fileName || "file.pdf";
+        const baseName = originalName.replace(/\.pdf$/i, "");
+        const compressedName = `${baseName}_compressed.pdf`;
+
+        const tmpDir = path.join(__dirname, "tmp");
+        if (!fs.existsSync(tmpDir)) fs.mkdirSync(tmpDir);
+
+        const inputPath = path.join(tmpDir, originalName);
+        const outputPath = path.join(tmpDir, compressedName);
+
+        await sock.sendMessage(from, { text: "Mengompress PDF..." });
+
+        let buffer;
+        try {
+          const downloadMsg = getMessageForDownload(msg);
+
+          buffer = await downloadMediaMessage(
+            downloadMsg,
+            "buffer",
+            {},
+            {
+              logger: console,
+              reuploadRequest: sock.updateMediaMessage
+            }
+          );
+        } catch (e) {
+          console.error("DOWNLOAD PDF ERROR:", e);
+          await sock.sendMessage(from, { text: "❌ Gagal mengambil PDF." });
+          return;
+        }
+
+        fs.writeFileSync(inputPath, buffer);
+
+        try {
+          await compressPDF(inputPath, outputPath);
+
+          await sock.sendMessage(from, {
+            document: fs.readFileSync(outputPath),
+            fileName: compressedName,
+            mimetype: "application/pdf"
+          });
+        } catch (e) {
+          console.error("COMPRESS ERROR:", e);
+          await sock.sendMessage(from, { text: "❌ Gagal mengompress PDF." });
+        }
+
+        fs.unlinkSync(inputPath);
+        if (fs.existsSync(outputPath)) fs.unlinkSync(outputPath);
+
+        return;
+      }
+
 
       if (
         text.trim().toLowerCase() === "/reset" ||
