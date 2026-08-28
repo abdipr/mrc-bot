@@ -35,7 +35,7 @@ const HISTORY_FILE = path.join(__dirname, "history.json");
 const PINJAMAN_FILE = path.join(__dirname, "pinjaman.json");
 const SETTINGS_FILE = path.join(__dirname, "settings.json");
 const MAX_HISTORY_ITEMS = 10;
-const MODEL = "xiaomi/mimo-v2-flash:free";
+const MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free";
 function compressPDF(inputPath, outputPath) {
   return new Promise((resolve, reject) => {
     const args = [
